@@ -2,9 +2,9 @@
 
 ### Requirements:
 - Meteor
-
-    curl https://install.meteor.com/ | sh
-
+```
+curl https://install.meteor.com/ | sh
+```
 
 ### Getting started
 1. clone this
