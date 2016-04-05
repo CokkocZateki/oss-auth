@@ -2,7 +2,9 @@
 
 ### Requirements:
 - Meteor
+
     curl https://install.meteor.com/ | sh
+
 
 ### Getting started
 1. clone this
@@ -13,7 +15,9 @@
 ./build.sh
 
 #### Run Development:
+
     meteor --settings settings.json
+
 Open localhost:3000
 
 
