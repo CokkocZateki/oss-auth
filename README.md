@@ -1,7 +1,8 @@
 ## EVE Online - OSS Auth
 
 ### Requirements:
-Meteor: curl https://install.meteor.com/ | sh
+- Meteor
+    curl https://install.meteor.com/ | sh
 
 ### Getting started
 1. clone this
@@ -12,7 +13,7 @@ Meteor: curl https://install.meteor.com/ | sh
 ./build.sh
 
 #### Run Development:
-meteor --settings settings.json
+    meteor --settings settings.json
 Open localhost:3000
 
 
