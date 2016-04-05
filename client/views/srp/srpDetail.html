@@ -1,0 +1,72 @@
+<template name="srpDetail">
+  <h2>SRP Details <small>BOS-SRP-{{this.killID}} at {{formatTime this.killTime }}</small><span class="label label-{{statusclass}}">{{this.status}}</span></h2>
+  <a href="https://zkillboard.com/kill/{{this.killID}}" class="btn btn-danger" target="_blank">Show on zKillboard</a>
+  {{#if this.broadcast}}<h3>Broadcast:</h3>
+  <pre>
+    {{this.broadcast}}
+  </pre>{{/if}}
+  <h3>Victim: {{ this.victim.character.name }}</h3>
+  <h3>System: {{ this.solarSystem.name }}</h3>
+  <h3>Ship: <span class="label label-default">{{ this.victim.shipType.name
+  }}</span> Damage Taken: <span class="label label-default">{{
+  this.victim.damageTaken
+  }}</span> Loss: <span class="label label-danger">{{ formatISK
+  this.loss }}</span></h3>
+  <div class="row">
+  <div class="col-xs-12 col-sm-4">
+  Fitting: <button class="btn btn-primary" onclick="CCPEVE.showFitting('{{
+  lossDNA }}');">Show Fitting (IG)</button><br>
+  Payout Amount: <input type="text" class="form-control" name="payout" value="{{ this.payout }}"><br>
+  {{#if processable }}
+  Payout Reason: <form class="form-inline"><input type="text"
+  class="form-control" value="BOS-SRP-{{ this.killID }}">
+  <button class="btn btn-warning"  onclick="CCPEVE.showInfo(1377, {{   
+  this.victim.character.id }})">Open Character (IG)</button></form><br>
+  {{/if}}
+  Comment:<textarea id="comment" name="comment" cols="40" rows="5"
+  placeholder=""
+  class="form-control">{{this.comment}}</textarea><br>
+  </div>
+  </div>
+  {{#if processable }}  
+  <div class="checkbox">
+    <label>
+      <input checked="checked" value="next" type="checkbox" name="next"> Open
+  next after processing...
+    </label>
+  </div>
+  <div class="btn-group" role="group">
+    <button class="process btn btn-sm btn-danger" value="Declined"
+  id="decline">Decline</button> 
+    <button class="process btn btn-sm btn-default" value="Approved"
+  id="approve">Approve</button>
+    <button class="process btn btn-sm btn-success" value="Paid" id="pay">Payed
+  (click AFTER you
+    payed)</button>
+  </div> 
+  {{/if}}
+  <h3>Killers:</h3>
+  <table class="table table-condensed">
+    <thead>
+      <tr>
+        <th>Ship</th>
+        <th>Damage</th>
+        <th>Name</th>
+        <th>Corporation</th>
+        <th>Alliance</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each this.attackers}}
+      <tr>
+        <td>{{this.shipType.name}}</td>
+        <td>{{this.damageDone}} ({{this.weaponType.name}})</td>
+        <td>{{this.character.name}}</td>
+        <td>{{this.corporation.name}}</td>
+        <td>{{this.alliance.name}}</td>
+      </tr>
+      {{/each}}
+    </tbody>
+  </table>
+
+</template>

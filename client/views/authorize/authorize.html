@@ -1,0 +1,16 @@
+<template name="authorize">
+  <div class="page-headerx">
+      <h1><img src="https://image.eveonline.com/Alliance/655846070_64.png">
+      The OSS SSO</h1>
+  </div>
+  <h2>Authorization request from {{this.name}}</h2>
+  <p class="lead">
+    The app "{{this.name}}" requested access to your data:
+    <ul>
+      {{#each this.scopes}}
+        <li>{{this}}</li>
+      {{/each}}
+    </ul>
+  </p>
+  <a href="#" class="btn btn-lg btn-primary authorize">Authorize App</a>
+</template>

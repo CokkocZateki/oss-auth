@@ -1,0 +1,19 @@
+<template name="dashboardCharacter">
+<div class="col-xs-12 col-sm-3 col-lg-2">
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3>{{ this.characterName }}</h3>
+    <h4>{{ this.corporationName }}</h4>
+  </div>
+  <div class="panel-body">
+    <a href="" class="btn btn-xs btn-default hideChar">Hide</a>
+    {{#if this.isMain }}
+    <span class="label label-success">MAINCHAR</span>
+    {{else}}<a href="" class="btn btn-xs btn-default mainChar">Set as main</a>
+    {{/if}}<br>
+    <img style="max-width:100%" src="https://image.eveonline.com/Character/{{ this.characterID
+    }}_512.jpg"><br>
+  </div>
+</div>
+</div>
+</template>

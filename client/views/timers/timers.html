@@ -1,0 +1,157 @@
+<template name="timers">
+<div class="row">
+  <div class="col-sm-12 col-md-6">
+    <h2>Current Timers</h2>
+    {{#if errorMessages}}
+    <div class="list-errors">
+    {{#each errorMessages}}
+    <div class="alert alert-danger"><strong>Warning!</strong>
+      <div class="error-msg">{{this}}</div>
+    </div>
+    {{/each}}
+    </div>
+    {{/if}}
+    {{#if canAdd}}
+    <button id="addTimer" class="btn btn-primary">Add Timer</button>
+    {{/if}}
+  </div>
+</div>
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>System</th>
+      <th>Planet</th>
+      <th>Moon</th>
+      <th>Owner</th>
+      <th>EVE Time</th>
+      <th>Your Time</th>
+      <th>Remaining</th>
+      <th>Notes/Creator</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+  {{#each timers}}
+    {{>timerItem}}
+  {{/each}}
+  </tbody>
+</table>
+<div class="row">
+  <div class="col-sm-12 col-md-6">
+    <h2>Passed Timers</h2>
+  </div>
+</div>
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>System</th>   
+      <th>Planet</th>   
+      <th>Moon</th>
+      <th>Owner</th>  
+      <th>EVE Time</th>
+      <th>Your Time</th>
+      <th>Remaining</th>
+      <th>Notes/Creator</th>
+      <th>Actions</th>
+    </tr>  
+  </thead>
+  <tbody>  
+  {{#each oldTimers}}
+    {{>timerItem}}
+  {{/each}}
+  </tbody>
+</table>
+
+{{>addTimerModal}}
+</template>
+
+<template name="addTimerModal">
+  <div id="addTimerModal" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" data-dismiss="modal" aria-hidden="true" class="close">&times;</button>
+          <h4 class="modal-title">Add timer</h4>
+          <div class="clearfix"></div><br>
+          <div id="own-login">
+            <form class="form-horizontal">
+              <div class="form-group">
+                {{#if errorMessages}}
+                <div class="list-errors">
+                  {{#each errorMessages}}
+                    <div class="alert alert-danger"><strong>Achtung!</strong>
+                      <div class="error-msg">{{this}}</div>
+                    </div>
+                  {{/each}}
+                </div>
+                {{/if}}
+              </div>
+              <div class="form-group">
+                <label for="type" class="col-xs-2 col-sm-offset-0">Type</label>
+                <div class="col-xs-8 col-sm-offset-0">
+                <select name="type" id="type" class="form-control">
+                  <option value="POS" selected="selected">POS</option>
+                  <option value="IHubShield">IHub Shield</option>
+                  <option value="IHubArmor">IHub Armor</option>
+                  <option value="StationShield">Station Shield</option>
+                  <option value="StationArmor">Station Armor</option>
+                  <option value="Custom">Custom</option>
+                </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputSystem" class="col-xs-2 col-sm-offset-0">System</label>
+                <div class="col-xs-8 col-sm-offset-0">
+                  <input id="inputSystem" type="text" name="system" placeholder="FD-MLJ" class="form-control">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputPlanet" class="col-xs-2 col-sm-offset-0">Planet</label>
+                <div class="col-xs-8 col-sm-offset-0">
+                  <input id="inputPlanet" type="text" name="planet" placeholder="7" class="form-control">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputMoon" class="col-xs-2 col-sm-offset-0">Moon</label>
+                <div class="col-xs-8 col-sm-offset-0">
+                  <input id="inputMoon" type="text" name="moon" placeholder="4" class="form-control">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputOwner" class="col-xs-2 col-sm-offset-0">Owner</label>
+                <div class="col-xs-8 col-sm-offset-0">
+                  <input id="inputOwner" type="text" name="owner" placeholder="PL" class="form-control">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputTime" class="col-xs-2 col-sm-offset-0">Time</label>
+                <div class="col-xs-8 col-sm-offset-0">
+                  <input id="inputTime" type="text" name="time" placeholder="" class="form-control datetimepicker">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputNotes" class="col-xs-2 col-sm-offset-0">Notes:</label>
+                <div class="col-xs-8 col-sm-offset-0">
+                  <textarea id="inputNotes" name="notes" cols="40" rows="10" placeholder="Custom Note." class="form-control"></textarea>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputNotify" class="col-xs-2 col-sm-offset-0">Send a jabber ping to all FCs, X Minutes before timer (0=no ping)</label>
+                <div class="col-xs-8 col-sm-offset-0">
+                  <input id="inputNotify" type="text" name="notify" placeholder="60" value="0" class="form-control">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-xs-8 col-sm-offset-2">
+                  <input name="addTimer" type="submit" value="Add Timer" class="btn btn-primary pull-right">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

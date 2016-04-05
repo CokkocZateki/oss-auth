@@ -1,0 +1,20 @@
+<template name="timerItem">
+    <tr>
+      <td>{{this.type}}</td>
+      <td>{{this.system}}</td>
+      <td>{{this.planet}}</td>
+      <td>{{this.moon}}</td>
+      <td>{{this.owner}}</td>
+      <td>{{formatTimeUTC this.due}}</td>
+      <td>{{formatTime this.due}}</td>
+      <td class="countdown"></td>
+      <td>{{this.notes}}<br>{{user this._u}}</td>
+      <td> 
+        {{#if canAdd}}
+        <div class="btn-group pull-right" role="group">
+          <button class="btn btn-xs btn-danger delete"><i class="fa fa-trash"></i> Delete</button>
+        </div>
+        {{/if}}
+      </td>
+    </tr>  
+</template>

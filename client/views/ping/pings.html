@@ -1,0 +1,150 @@
+<template name="pings">
+<div class="row">
+  <div class="col-xs-12 col-sm-6">
+    {{#if errorMessages}}
+    <div class="list-errors">
+    {{#each errorMessages}}
+    <div class="alert alert-danger"><strong>Warning!</strong>
+      <div class="error-msg">{{this}}</div>
+    </div>
+    {{/each}}
+    </div>
+    {{/if}}
+    <h3>Mobile Pings</h3>
+    <p>
+      {{#if hasPushover}}
+        <h4>Registered for Pushover</h4>
+      {{else}}
+      <button id="registerPushover" class="btn btn-primary">Register for Pushover pings (5€ Lifetime)</button>
+      {{/if}}
+      {{#if hasPushbullet}}
+         <h4>Registered for Pushbullet</h4>
+      {{else}}
+      <button id="registerPushbullet" class="btn btn-primary">Register for Pushbullet pings (Free)</button> 
+      {{/if}}
+    </p>
+  </div>
+  <div class="col-xs-12 col-sm-6">
+    {{#if hasMobile}}
+      <h3>Mobile Settings</h3>
+      {{#if alwaysMobile}}
+        <p>You always get mobile pings, no matter what priority!</p>
+      {{else}}
+        <p>You only get "high" priority pings to your mobile.</p>
+      {{/if}}
+      <button id="alwaysMobile" class="btn btn-primary">Toggle always mobile</button>
+    {{else}}
+      <img src="http://puu.sh/ipALj/275df4e152.png" style="max-height:300px">
+    {{/if}}
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-12 col-md-12">
+    {{#if canPing}}
+    <button id="createPing" class="btn btn-primary">Create Ping</button>
+    {{/if}}
+  </div>
+</div>
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th>Corporations</th>
+      <th>Roles</th>
+      <th>Sender</th>
+      <th>Priority</th>
+      <th>Message</th>
+      <th>EVE Time</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+  {{#each pings}}
+    {{>pingItem}}
+  {{/each}}
+  </tbody>
+</table>
+{{>pingModal}}
+</template>
+
+<template name="pingModal">
+  <div id="pingModal" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" data-dismiss="modal" aria-hidden="true" class="close">&times;</button>
+          <h4 class="modal-title">Add ping</h4>
+          <div class="clearfix"></div><br>
+          <div id="own-login">
+            <form class="form-horizontal">
+              <div class="form-group">
+                {{#if errorMessages}}
+                <div class="list-errors">
+                  {{#each errorMessages}}
+                    <div class="alert alert-danger"><strong>Achtung!</strong>
+                      <div class="error-msg">{{this}}</div>
+                    </div>
+                  {{/each}}
+                </div>
+                {{/if}}
+              </div>
+              <div class="form-group">
+                <label for="types">by Type</label>
+                <button class="selectType btn btn-sm btn-primary" id="Alliance" type="button">Alliance</button>
+                <button class="selectType btn btn-sm btn-primary" id="Allied" type="button">Allied</button>
+              </div>
+              <div class="form-group">
+                <label for="groups">or by Corporations*</label>
+                <select name="groups" index="groups" multiple="true" class="form-control" size="3">
+                  {{#each corporations}}
+                  <option value="{{this._id}}" data-type="{{this.type}}">{{this.corporationName}}</option>
+                  {{/each}}
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="roles">Roles*</label>
+                <select name="roles" index="roles" multiple="true" class="form-control" size="4">
+                  <!--{{#each roles}}
+                  <option value="{{this.name}}">{{this.name}}</option>
+                  {{/each}}-->
+                  <option value="Member">Member</option>  
+                  {{#if hasRole 'Director'}}
+                  <option value="Diplomat">Diplomat</option>
+                  <option value="Director">Director</option>
+                  <option value="Logistics">Logistics</option>
+                  {{/if}}
+                  {{#if hasRole 'Skyteam'}}
+                  <option value="Super">Super</option>
+                  <option value="Titan">Titan</option>
+                  <option value="FC">FC</option>
+                  {{/if}}
+                  {{#if hasRole 'AT MOD'}}
+                  <option value="AT">AT</option>
+                  {{/if}}
+                  {{#if hasRole 'Admin'}}
+                  <option value="Admin">Admin</option>
+                  {{/if}}
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="priority">Priority*</label>
+                <select name="priority" index="priority" class="form-control">
+                  <option value="high">High (+Mobile Pings)</option>
+                  <option value="normal" selected="selected">Normal (Jabber)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Message*</label>
+                <textarea class="form-control" size="10" id="message" name="message" placeholder="Your Message"></textarea>
+              </div>
+              <div class="form-group">
+                <div class="col-xs-8 col-sm-offset-2">
+                  <input name="sendPing" type="submit" value="Send Ping" class="btn btn-primary pull-right">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

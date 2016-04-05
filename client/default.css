@@ -1,0 +1,87 @@
+      body {
+        font-family: Helvetica, Arial, sans-serif;
+        color: #FFF;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #f5f5f5;
+        background: url("/img/bg.jpg") top center no-repeat #000;
+      }
+
+      .container {
+        padding: 19px 29px 29px;
+        margin: 0 auto 20px;
+        background-color: rgba(0,0,0,0.75);
+        /*border: 1px solid #e5e5e5;*/
+        -webkit-border-radius: 5px;
+           -moz-border-radius: 5px;
+                border-radius: 5px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.25);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.25);
+                box-shadow: 0 1px 2px rgba(0,0,0,.25);
+      }
+      h1, h2, h3, h4, h5 {
+         font-family: "Ropa Sans",sans-serif;
+         color: #FFF;
+         text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+         font-weight: normal;
+         text-transform: uppercase;
+      }
+      .page-header h1 {
+        font-size: 64px;
+      }
+      .page-header h1 small {
+        font-size: 38px;
+      }
+      small, h2 small, h1 small, h3 small {
+        color: #189fcc;
+      }
+      .well {
+        background: rgba(0,0,0,.25);
+      }
+      .progress span {
+        color: #000;
+        text-align: left;
+        width: 100%;
+        white-space: nowrap;
+      }
+.table-striped>tbody>tr:nth-child(odd) {
+background-color: rgba(255,255,255,.2);
+}
+
+.modal-content {
+background-color: rgba(0,0,0,.8);
+border: 1px solid rgba(255,255,255, .3);
+}
+.dropdown-menu {
+background-color: rgba(0,0,0,.8);
+}
+
+.close {
+color: #FFF;
+opacity: 0.8;
+}
+.label {
+text-shadow: 0 0 1px #000;
+}
+.table-hover>tbody>tr:hover {
+background-color: rgba(255,255,255,.2);
+}
+
+.panel-body {
+  color: #333;
+}
+
+.dropdown-menu>li>a {
+  color: #FFF;
+}
+
+
+.login li {
+    list-style: none;
+}
+.login a {
+    color: #FFF;
+}
+.login {
+    color: #FFF !important;
+}

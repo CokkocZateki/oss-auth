@@ -1,0 +1,44 @@
+<template name="nav">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        {{#if currentUser}}
+        <li class='{{routeEquals "/"}}'><a href="/"><i class="fa fa-tachometer"></i> DASH<span class="sr-only">(current)</span></a></li>
+        {{#if hasRole 'Member'}}
+          <li class='{{routeEquals "/absences"}}'><a href="/absences"><i class="fa fa-calendar"></i> AFK</a></li>
+          <li class='{{routeEquals "/timers"}}'><a href="/timers"><i class="fa fa-clock-o"></i> TIMER</a></li>
+          <li class='{{routeEquals "/pings"}}'><a href="/pings"><i class="fa fa-bullhorn"></i> PING</a></li>
+          <li class='{{routeEquals "/srp"}}'><a href="/srp"><i class="fa fa-money"></i> SRP</a></li>
+        {{/if}}
+        <li class='{{routeEquals "/external"}}'><a href="/external"><i class="fa fa-wrench"></i> ESA</a></li>
+        <li class='{{routeEquals "/api"}}'><a href="/api"><i class="fa fa-exchange"></i> API</a></li>
+        {{#if hasRole 'Director'}}
+        <li class="divider"></li>
+        <li class='{{routeEquals "/character"}}'><a href="/character"><i class="fa fa-users"></i> Characters</a></li>
+        <li class='hidden {{routeEquals "/intel"}}'><a href="/intel"><i class="fa fa-eye"></i> Intel</a></li>
+        <li class='hidden {{routeEquals "/pos"}}'><a href="/pos"><i class="fa fa-eye"></i> POS</a></li>        
+        <li class='{{routeEquals "/member"}}'><a href="{{pathFor route='members.list'}}"><i class="fa fa-users"></i> Members</a></li>
+        {{/ if}}
+        {{ else }}
+
+        {{ /if }}
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        {{> loginButtons}}
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</template>

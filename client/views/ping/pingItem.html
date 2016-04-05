@@ -1,0 +1,11 @@
+<template name="pingItem">
+    <tr>
+      <td>{{join this.groups ', '}}</td>
+      <td>{{join this.roles ', '}}</td>
+      <td>{{user this._u}}</td>
+      <td>{{this.priority}}</td>
+      <td>{{this.message}}</td>
+      <td>{{formatTimeUTC this.date}}</td>
+      <td>{{this.status}}</td>
+    </tr>  
+</template>

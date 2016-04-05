@@ -1,0 +1,43 @@
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
+  <title>The OSS Auth</title>
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+  $('[data-toggle="tooltip"]').tooltip();
+  $('.dropdown-toggle').dropdown();
+  // reload #1
+});
+
+</script>
+</body>
+
+<template name="singleton">
+  <div class="container" id="main">
+    <div class="login pull-right">{{> loginButtons align="right"}}</div>
+    {{> yield}}
+  </div>
+</template>
+
+<template name="default">
+  {{> yield "header"}}
+  <div class="container" id="main">
+    <div class="page-headerx">
+      <h1><img src="https://image.eveonline.com/Alliance/655846070_64.png">
+      The OSS Auth<small>{{ title }}</small></h1>
+    </div>
+    {{> nav }}
+    {{> yield}}
+  </div>
+  <div class="container-fluid">
+    {{> yield "footer"}}
+  </div>
+</template>

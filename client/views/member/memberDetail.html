@@ -1,0 +1,158 @@
+<template name="memberDetail">
+  <h2>{{#if this.group}}[{{this.group}}] - {{/if}}{{this.username}}</h2>
+  <div class="row">
+    <div class="col-xs-12 col-md-6">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3>Groups<span class="pull-right">
+            {{#if this.group}}
+            <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                <i class="fa fa-plus-square"></i> add Group
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a class="addRole" href="#" data-role="Director">Director</a></li>
+                <li><a class="addRole" href="#" data-role="Skyteam">Skyteam</a></li>
+                <li><a class="addRole" href="#" data-role="Diplomat">Diplomat</a></li>
+                <li><a class="addRole" href="#" data-role="FC">FC</a></li>
+                <li><a class="addRole" href="#" data-role="HR">HR</a></li>
+                <li><a class="addRole" href="#" data-role="Ping">Ping</a></li>
+                <li><a class="addRole" href="#" data-role="Recon">Recon</a></li>
+                <li><a class="addRole" href="#" data-role="Logistics">Logistics</a></li>
+                <li><a class="addRole" href="#" data-role="POS">POS</a></li>
+                <li><a class="addRole" href="#" data-role="SRP">SRP</a></li>
+                <li><a class="addRole" href="#" data-role="Super">Super</a></li>
+                <li><a class="addRole" href="#" data-role="Titan">Titan</a></li>
+                <li><a class="addRole" href="#" data-role="AT">AT</a></li>
+                <li><a class="addRole" href="#" data-role="AT MOD">AT MOD</a></li>
+              </ul>
+            </div>
+          {{/if}}
+          </span></h3>      
+        </div>
+        <div class="panel-body">
+          <table class="table">
+            <thead>
+              <tr><th>Role</th><th>Action</th></tr>
+            </thead>
+            <tbody>
+              {{#each this.getRoles true}}         
+              <tr><td>{{this}}</td><td><button class="btn btn-danger btn-xs deleteRole"><i class="fa fa-trash"></i> Delete</button></td></tr>
+              {{/each}}
+            </tbody>
+          </table>
+        </div>
+      </div>  
+    </div>
+    <div class="col-xs-12 col-md-6">           
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3>Characters</h3>
+        </div>
+        <div class="panel-body">
+          <table class="table">
+          <tr><th>Name</th><th>Corporation</th><th>Alliance</th></tr>
+          {{#each characters}}
+          <tr><td><a href="http://evewho.com/pilot/{{this.characterName}}" target="_blank">{{this.characterName}}</a> <a href="https://zkillboard.com/character/{{this.characterID}}/" target="_blank">[ZKB]</a></td><td>{{this.corporationName}}</td><td>{{this.allianceName}}</td></tr>
+          {{/each}}
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-6">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3>EX API'd Chars</h3>
+        </div>
+        <div class="panel-body">
+          <table class="table">
+          <tr><th>Name</th><th>last Corporation</th><th>last Alliance</th></tr>
+          {{#each exCharacters}} 
+          <tr><td><a href="http://evewho.com/pilot/{{this.characterName}}" target="_blank">{{this.characterName}}</a> <a href="https://zkillboard.com/character/{{this.characterID}}/" target="_blank">[ZKB]</a></td><td>{{this.corporationName}}</td><td>{{this.allianceName}}</td></tr> 
+          {{/each}}
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-6">
+      <div class="panel panel-primary">
+        <div class="panel-heading"> 
+          <h3>Notes</h3>
+        </div>
+        <div class="panel-body"> 
+          {{#if this.notes}}
+            {{#each this.notes}}
+            <p>
+              <small>By {{this.editor}} at {{formatTimeUTC this.date}}:</small><br>
+              {{this.note}}
+            </p>
+            <hr>
+            {{/each}}
+          {{/if}}
+          <form class="addNote">
+            <div class="form-group">
+              <label for="inputNote">Add Note</label>
+              <textarea name="note" class="form-control"></textarea>
+            </div>
+            <button class="btn btn-primary btn-xs saveNote"><i class="fa fa-save"></i> Save</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-6">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3>AFK Status</h3>
+        </div>
+        <div class="panel-body">
+          <table class="table">
+          <tr><th>Start</th><th>End</th><th>Comment</th></tr>
+          {{#each absences}}
+          <tr><td>{{formatTimeUTC this.start}}</td><td>{{formatTimeUTC this.end}}</td><td>{{this.comment}}</td></tr>
+          {{/each}}
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-12">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3>SRP Status</h3>
+        </div>
+        <div class="panel-body">
+          <table class="table table-striped">
+            <thead>  
+              <tr><th>Date</th><th>ZKB</th><th>Ship</th><th>Value<br><small>Payout</small></th><th>Status</th><th>Actions</th></tr>  
+            </thead>
+            <tbody>
+          {{#each reimbursements}}  
+              <tr><td>{{formatTimeUTC this.killTime}}</td><td><a href="https://zkillboard.com/kill/{{this.killID}}/" target="_blank">{{this.killID}}</a></td><td>{{this.victim.shipType.name}}</td><td>{{formatISK this.loss}}<br><small>({{formatISK this.payout}})</small></td><td>{{this.status}}</td><td><a href="/srp/{{this._id}}" class="btn btn-xs btn-default"><i class="fa fa-check-square-o"></i> Detail</a></td></tr>  
+          {{/each}}
+            </tbody>  
+          </table> 
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-12">           
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3>APIS</h3>      
+        </div>
+        <div class="panel-body">
+          <table class="table">
+          <thead>
+          <tr><th>keyID</th><th>vCode</th><th>Status</th><th>AccessMask</th><th>Expires</th><th>Actions</th></tr>
+          </thead>
+          <tbody>
+          {{#each apis}}
+          <tr><td>{{this.keyID}}</td><td>{{this.vCode}}</td><td>{{this.status}}</td><td>{{this.accessMask}}</td><td>{{this.expires}}</td><td><button class="btn btn-xs updateApi">Update</button><br><small>{{this.cachedUntil}}</small></td></tr>
+          {{/each}}
+          </tbody>
+          </table>
+        </div>
+      </div>  
+    </div>
+  </div>
+  <p>Under Construction</p>
+</template>

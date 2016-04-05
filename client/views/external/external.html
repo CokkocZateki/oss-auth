@@ -1,0 +1,55 @@
+<template name="external">
+{{#if inProgress}}
+  {{>spinner}}
+{{else}}
+  {{#if voice}}
+<!--  <h2>Mumble</h2>
+  <dl class="dl-horizontal">
+    <dt>Password Status</dt>
+    <dd>{{#if currentUser.profile.mumble }}<span class="label label-success">OK</span>{{ else }}<span class="label label-danger">No password set!</span>{{/if}}</dd>
+    <dt>Host</dt>
+    <dd>bos.gs</dd>
+    <dt>Port</dt>
+    <dd>64738 or 143</dd>
+    <dt>Username</dt>
+    <dd>{{currentUser.group}} - {{mumbleize currentUser.username}}</dd>
+  </dl>
+-->
+  <h2>Teamspeak3 <a href="ts3server://oss.rocks?nickname={{currentUser.group}} - {{mumbleize currentUser.username}}" class="btn btn-primary btn-sm">Connect</a></h2>
+  <dl class="dl-horizontal">
+    <dt>Access Status</dt>
+    <dd>{{#if teamspeak3Token }}<span class="label label-success">OK "{{teamspeak3Token}}"</span>{{ else }}<span class="label label-danger">No token set!</span>{{/if}}</dd>
+    <dt>Set Unique ID</dt>
+    <dd>In TS3 go to Settings->Identities copy the Unique ID:<br><form class="form-inline setTs3"><input id="ts3" type="text" class="form-control input-sm" value="" placeholder="Your Unique ID eg. 23f34gq43h3g3g3g43g/43="><button class="btn btn-info btn-sm">Set</button></form></dd>
+    <dt>Host</dt>
+    <dd>oss.rocks</dd>
+    <dt>Port</dt>
+    <dd>9987</dd>
+    <dt>Username</dt>
+    <dd>{{currentUser.group}} - {{mumbleize currentUser.username}}</dd>
+  </dl>
+  {{else}}
+  <h2>Your group has no Voice access</h2>
+  {{/if}}
+  {{#if jabber}}
+  <h2>Jabber</h2>
+  <dl class="dl-horizontal">
+    <dt>Host</dt>
+    <dd>bos.gs</dd>
+    <dt>Port</dt>
+    <dd>Default (5222)</dd>
+    <dt>Username</dt>
+    <dd>{{jabberize currentUser.username}}@bos.gs</dd>
+    <dt>Password</dt>
+    <dd>Same as here</dd>
+    <dt>Channel</dt>
+    <dd>oss/oss.public</dd>
+    <!--<dt>Set Password</dt>
+    <dd><form class="form-inline setESA"><input id="esp" type="password" class="form-control input-sm" value=""><button class="btn btn-info btn-sm save" text="save" id="save">Save</button></form></dd>
+    -->
+  </dl>
+  {{else}}
+  <h2>Your group has no Jabber access</h2>
+  {{/if}}
+{{/if}}
+</template>

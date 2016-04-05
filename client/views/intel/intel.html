@@ -1,0 +1,40 @@
+<template name="regionSelectTemplate">
+  <span class="label label-info">{{regionName}}</span> <small class="muted">({{regionID}})</small>
+</template>
+
+<template name="intel">
+<h2>Latest Super/Titan involved kills</h2>
+<h3>If results are broken, reload page, theres no caching, realtime
+zkillboard.com data</h3>
+<div class="well">
+Select Region: {{> inputAutocomplete settings=settings id="area"
+class="form-control" placeholder="Select Region, start typing..."}}
+</div>
+{{#if loadingIntel}}
+{{>spinner}}
+{{/if}}
+<table class="table table-hover table-striped">
+  <thead>
+    <tr>
+      <th>ID<br>Time</th>
+      <th>System</th>
+      <th>Victim</th>
+      <th>Ship<br>Loss</th>
+      <th>Attackers</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+{{#each intel}}
+    <tr>
+      <td>{{this.killID}}<br>{{this.killTime}}</td>
+      <td>{{this.solarSystem.solarSystemName}}</td>
+      <td>{{this.victimName}}</td>
+      <td>{{this.victimShip}}<br>{{formatISK this.totalValue}}</td>
+      <td><small>{{#each this.attackers}}{{this}}<br>{{/each}}</small></td>
+      <td><a class="btn btn-xs btn-primary" target="_blank" href="https://zkillboard.com/kill/{{this.killID}}">zkillboard</a></td>
+    </tr>
+{{/each}}
+  </tbody>
+</table>
+</template>

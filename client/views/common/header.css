@@ -1,0 +1,22 @@
+.alert a {
+  color: inherit;
+}
+
+.fixedtop {
+  background-color: rgba(0,0,0,0.9);
+  position: fixed;
+  top: 0px;
+  left: 10%;
+  width: 80%;
+  z-index: 100;
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+}
+
+.fixedtop h3 {
+  margin-top: 0;
+}
+
+.fixedtop p {
+  margin-bottom: 0;
+}

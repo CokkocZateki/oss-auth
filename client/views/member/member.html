@@ -1,0 +1,26 @@
+<template name="member">
+<h1>Auth Members</h1>
+
+<table class="table table-hover table-striped">
+  <thead>
+    <tr>
+      <th>Member</th>
+      <th>Status</th>
+      <th>Roles</th>
+      <th>Characters</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+{{#each this}}
+    <tr>
+      <td>{{this.username}}</td>
+      <td>{{#if this.profile.status}}{{this.profile.status}}{{else}}Active{{/if}}</td>
+      <td>{{#each this.getRoles}}{{this}}<br>{{/each}}</td>
+      <td>{{join characters ', '}}</td>
+      <td><a class="btn btn-xs btn-primary" href="/member/{{this._id}}">Edit Member</a></td>
+    </tr>
+{{/each}}
+  </tbody>
+</table>
+</template>

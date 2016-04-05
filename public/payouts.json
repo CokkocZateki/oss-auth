@@ -1,0 +1,425 @@
+{ "_id" : "2B6N9BYmS6Xs6583q", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "672", "typeName" : "Caldari Shuttle" }
+{ "_id" : "2DmtTvcNto4CAaWEW", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "23757", "typeName" : "Archon" }
+{ "_id" : "2HQkMPgAZoFGyF6Xt", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "11959", "typeName" : "Rook" }
+{ "_id" : "2LDtquGFsjn5kwxCY", "bos" : 50000000, "gsf" : 50000000, "payout" : 25000000, "typeID" : "17634", "typeName" : "Caracal Navy Issue" }
+{ "_id" : "2es4dQAm24uAPBG4N", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "32876", "typeName" : "Corax" }
+{ "_id" : "2h9mYHiSMchzouvLn", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "20183", "typeName" : "Providence" }
+{ "_id" : "2ky4SpgnQqxLsLnn7", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "34255", "typeName" : "Vargur Krusual Edition" }
+{ "_id" : "2mrTLceN3MFbhkHHE", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "11178", "typeName" : "Raptor" }
+{ "_id" : "2sWqgE2irTcsvjmh8", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "9862", "typeName" : "Polaris Centurion Frigate" }
+{ "_id" : "2vzDrYtonfnLjr62Z", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "34245", "typeName" : "Kronos Innerzone Shipping Edition" }
+{ "_id" : "2wNhxzMruXWev6Rks", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "11182", "typeName" : "Cheetah" }
+{ "_id" : "32YaJ4tFpBwjZmxXu", "bos" : 50000000, "gsf" : 50000000, "payout" : 25000000, "typeID" : "29336", "typeName" : "Scythe Fleet Issue" }
+{ "_id" : "39Pkzd6zLnmP8z2GS", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "11965", "typeName" : "Pilgrim" }
+{ "_id" : "3Y2paMgct2FMyEXzv", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "29332", "typeName" : "Gallente Media Shuttle" }
+{ "_id" : "3pw34qE8THyDcZfBj", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "11961", "typeName" : "Huginn" }
+{ "_id" : "3zPsR6L7WzrHQQqxm", "bos" : 50000000, "gsf" : 50000000, "payout" : 25000000, "typeID" : "24696", "typeName" : "Harbinger" }
+{ "_id" : "49RaXH9tqrkzx6sw6", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "644", "typeName" : "Typhoon" }
+{ "_id" : "4CdAJRimtouMopByo", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "17932", "typeName" : "Dramiel" }
+{ "_id" : "4EnkpPRMErXZepCNi", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "27305", "typeName" : "Civilian Minmatar Shuttle" }
+{ "_id" : "4m7MW6N2ixPDazLHF", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "25560", "typeName" : "Opux Dragoon Yacht" }
+{ "_id" : "56KvS7QZocahs2rfK", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "585", "typeName" : "Slasher" }
+{ "_id" : "5KFkEBujRZiANGnRi", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "1904", "typeName" : "Concord Police Cruiser" }
+{ "_id" : "5YD5Y7nDQ8AsYWDy4", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "1916", "typeName" : "Concord SWAT Battleship" }
+{ "_id" : "5ZqM2uGHmkDBmEEr2", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "34233", "typeName" : "Golem Kaalakiota Edition" }
+{ "_id" : "5ftnKf8WjnsKSQKmt", "bos" : 150000000, "gsf" : 150000000, "payout" : 75000000, "typeID" : "32790", "typeName" : "Etana" }
+{ "_id" : "5nd4eNk9S9admgN9Q", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "33883", "typeName" : "Thrasher Thukker Tribe Edition" }
+{ "_id" : "6DHhYogidnAJ2GJyD", "bos" : 50000000, "gsf" : 50000000, "payout" : 25000000, "typeID" : "4302", "typeName" : "Oracle" }
+{ "_id" : "6PHgASLHMgphAok7E", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "17636", "typeName" : "Raven Navy Issue" }
+{ "_id" : "6mGfPa9Jf49XABReT", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "34215", "typeName" : "Apocalypse Kador Edition" }
+{ "_id" : "6vd9MeTGbKfWyvsbq", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "3516", "typeName" : "Malice" }
+{ "_id" : "6y2bTLhLo6BNnxEWW", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "11940", "typeName" : "Gold Magnate" }
+{ "_id" : "7BRLMYwNmHmbSn8Wy", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "597", "typeName" : "Punisher" }
+{ "_id" : "7PJYgxbbBBANFjBFR", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "630", "typeName" : "Bellicose" }
+{ "_id" : "7aCFZH52CiggAhWM6", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "33397", "typeName" : "Chremoas" }
+{ "_id" : "7aiqrBDq4rufdLN9z", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "33881", "typeName" : "Cormorant Guristas Edition" }
+{ "_id" : "7kHNhZ29e8KHQkov4", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "11963", "typeName" : "Rapier" }
+{ "_id" : "7pyGXeJAceFXZZGho", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "32987", "typeName" : "Sarum Magnate" }
+{ "_id" : "7qN3ZWjzNWCkFfph4", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "12038", "typeName" : "Purifier" }
+{ "_id" : "7rMLxsRebX6tfd6dw", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "17707", "typeName" : "Mordus Frigate" }
+{ "_id" : "7soWPXrzpMnK8fA3C", "bos" : 200000000, "gsf" : 200000000, "payout" : 100000000, "typeID" : "22470", "typeName" : "Nighthawk" }
+{ "_id" : "7xEDNXqChC9yXckBd", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "11936", "typeName" : "Apocalypse Imperial Issue" }
+{ "_id" : "85hBQDiRoz6qEvv3T", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "34249", "typeName" : "Tempest Krusual Edition" }
+{ "_id" : "8C7eM9vwhHXNaPZ6B", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "33190", "typeName" : "Tash-Murkon Magnate" }
+{ "_id" : "8TkXQXhg5ynRtjauC", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "32788", "typeName" : "Cambion" }
+{ "_id" : "8vsk4KhHhp9G4Km3x", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "34251", "typeName" : "Tempest Nefantar Edition" }
+{ "_id" : "98CjF8444CEbXRM8L", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "28606", "typeName" : "Orca" }
+{ "_id" : "9G73n6YERE9ezhQGX", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "29334", "typeName" : "Minmatar Media Shuttle" }
+{ "_id" : "9GWd29KsPHzyscDnw", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "32874", "typeName" : "Dragoon" }
+{ "_id" : "9LTEfNkbEnbzkYfLn", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "34253", "typeName" : "Vargur Justice Edition" }
+{ "_id" : "9WD2GGnrH2oJ2PEi4", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "607", "typeName" : "Imicus" }
+{ "_id" : "9fx3BHZQKn2qz73H3", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "11379", "typeName" : "Hawk" }
+{ "_id" : "9ud3jFLuquTRdEfRW", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "33653", "typeName" : "Thorax Innerzone Shipping Edition" }
+{ "_id" : "9wBtChNxHzA8YDL2f", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "22428", "typeName" : "Redeemer" }
+{ "_id" : "A86p3Qy7KdMAZk6bH", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "11202", "typeName" : "Ares" }
+{ "_id" : "AD5yQd2BBbHf2DqDp", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "22548", "typeName" : "Mackinaw" }
+{ "_id" : "ADy8QhQbCDT9ySDgR", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "17928", "typeName" : "Daredevil" }
+{ "_id" : "AFztaaG22vKwDkcNp", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "11196", "typeName" : "Claw" }
+{ "_id" : "ANG8kKXwMjgGssi43", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "19726", "typeName" : "Phoenix" }
+{ "_id" : "AQHMeqszZPY7HLm4r", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "29266", "typeName" : "Apotheosis" }
+{ "_id" : "AYNNtviHDiDPkhykT", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "33677", "typeName" : "Police Pursuit Comet" }
+{ "_id" : "AfJ35mf4N52DpHZuk", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "590", "typeName" : "Inquisitor" }
+{ "_id" : "AgmoJrRNDH4witGRQ", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "33816", "typeName" : "Garmur" }
+{ "_id" : "Ah8MqX5fmFQrJqBdp", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "17718", "typeName" : "Phantasm" }
+{ "_id" : "AiX7R9bivX5YcjqZW", "bos" : 150000000, "gsf" : 150000000, "payout" : 75000000, "typeID" : "11987", "typeName" : "Guardian" }
+{ "_id" : "AnknBfg5YDFW4g5Lc", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "33153", "typeName" : "Drake Navy Issue" }
+{ "_id" : "AqGocZpNwoqtgMvMK", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "629", "typeName" : "Rupture" }
+{ "_id" : "AqTKJwBXy7e9Maxqu", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "16238", "typeName" : "Cormorant" }
+{ "_id" : "ArJ37GuD72Zn8ecTb", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "17703", "typeName" : "Imperial Navy Slicer" }
+{ "_id" : "B7A7NRMondFbiyqEr", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "2998", "typeName" : "Noctis" }
+{ "_id" : "BBa3tY5D3iuWq67pK", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "17705", "typeName" : "Khanid Navy Frigate" }
+{ "_id" : "BCXN6EYmnjuCti6GZ", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "641", "typeName" : "Megathron" }
+{ "_id" : "BHnhyem2LFYeuTCGv", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "645", "typeName" : "Dominix" }
+{ "_id" : "Bave4uEWW9wFDdeoR", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "33647", "typeName" : "Stabber Nefantar Edition" }
+{ "_id" : "BhfjyHW5uNq5MrwCc", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "34257", "typeName" : "Vargur Nefantar Edition" }
+{ "_id" : "Bpa5HzQvgohMx9reF", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "17619", "typeName" : "Caldari Navy Hookbill" }
+{ "_id" : "BrxzCrutEwwq9e6Ld", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "33081", "typeName" : "Taipan" }
+{ "_id" : "BuP2JY7P5JQyb3kne", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "2161", "typeName" : "Crucifier" }
+{ "_id" : "C9j8HaHn3nTkGfozC", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "11971", "typeName" : "Lachesis" }
+{ "_id" : "CBWiESRcsuKT6GwJk", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "33655", "typeName" : "Punisher Kador Edition" }
+{ "_id" : "CXAaPPfw8pbwGgrHW", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "17922", "typeName" : "Ashimmu" }
+{ "_id" : "Cd7WEXPn7BH5Xrdhg", "bos" : 65000000, "gsf" : 65000000, "payout" : 32500000, "typeID" : "22464", "typeName" : "Flycatcher" }
+{ "_id" : "CfHFJnR4PH4qwTC9w", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "649", "typeName" : "Tayra" }
+{ "_id" : "ChgqWuYpPWxxJPLC8", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "11393", "typeName" : "Retribution" }
+{ "_id" : "Co2SxYDFmp4SY8Gpt", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "33151", "typeName" : "Brutix Navy Issue" }
+{ "_id" : "CpJqafmRcetjg7dZA", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "638", "typeName" : "Raven" }
+{ "_id" : "Ct7SZ3ZsqQ3DpYpCj", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "1912", "typeName" : "Concord Police Battleship" }
+{ "_id" : "DTxJpCeinwvAL7K6g", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "34151", "typeName" : "Rattlesnake Victory Edition" }
+{ "_id" : "DaBTP3HztoDmbj8rh", "bos" : 214000000, "gsf" : 214000000, "payout" : 107000000, "typeID" : "12017", "typeName" : "Devoter" }
+{ "_id" : "Do6q4ZqHJu7s2gcFe", "bos" : 50000000, "gsf" : 50000000, "payout" : 25000000, "typeID" : "4310", "typeName" : "Tornado" }
+{ "_id" : "Ds9AS8xyva8gtr56u", "bos" : 150000000, "gsf" : 150000000, "payout" : 75000000, "typeID" : "11978", "typeName" : "Scimitar" }
+{ "_id" : "DvZqNvqebQ3L2cnYw", "bos" : 214000000, "gsf" : 214000000, "payout" : 107000000, "typeID" : "12013", "typeName" : "Broadsword" }
+{ "_id" : "E2pgbfGyM2cRSKYNB", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "588", "typeName" : "Reaper" }
+{ "_id" : "E4pZ92KTXDQcrexdK", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "32983", "typeName" : "Sukuuvestaa Heron" }
+{ "_id" : "EBxr3QSmiQ9ZWKchy", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "33665", "typeName" : "Rifter Krusual Edition" }
+{ "_id" : "EFx55ZCzLBEvugebj", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "12015", "typeName" : "Muninn" }
+{ "_id" : "EH4gWfSiknPa5Af6X", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "626", "typeName" : "Vexor" }
+{ "_id" : "EMSq5RqonXCu2Sbqx", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "1914", "typeName" : "Concord Special Ops Battleship" }
+{ "_id" : "EhfrZoveozxFx6ygn", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "32846", "typeName" : "Quafe Catalyst" }
+{ "_id" : "EwnRmApTEgdZyyTqJ", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "1898", "typeName" : "Concord SWAT Frigate" }
+{ "_id" : "F5gnbvyJoqCT5DQ3M", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "33472", "typeName" : "Nestor" }
+{ "_id" : "F6Ew7aPMGvzHAFWC3", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "17930", "typeName" : "Worm" }
+{ "_id" : "F6oZKvpxqFgmvETKa", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "17841", "typeName" : "Federation Navy Comet" }
+{ "_id" : "FCH58TgfeXwzhPxvc", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "22440", "typeName" : "Panther" }
+{ "_id" : "Fnjef56EDP7Jkxqkx", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "32842", "typeName" : "Intaki Syndicate Catalyst" }
+{ "_id" : "FqqXQymdpFyiW5DgX", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "34217", "typeName" : "Apocalypse Tash-Murkon Edition" }
+{ "_id" : "FzyzD8XfLQeoh7AYJ", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "11938", "typeName" : "Armageddon Imperial Issue" }
+{ "_id" : "GEr8BKKhFeCTYSNDJ", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "21097", "typeName" : "Goru's Shuttle" }
+{ "_id" : "GME9iGZwvrTMvAvp2", "bos" : 50000000, "gsf" : 50000000, "payout" : 25000000, "typeID" : "16229", "typeName" : "Brutix" }
+{ "_id" : "GPRfe3nmvJQxeoHLJ", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "12743", "typeName" : "Viator" }
+{ "_id" : "GeGjPDxLiD3sCNxFS", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "671", "typeName" : "Erebus" }
+{ "_id" : "GfnWw48oc4jmDZpmx", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "19720", "typeName" : "Revelation" }
+{ "_id" : "Gh2W6io3JiPEhKiec", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "29990", "typeName" : "Loki" }
+{ "_id" : "GtkcBL5WAwJJxg2JT", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "24692", "typeName" : "Abaddon" }
+{ "_id" : "H5k4W3X6cHYcvuvyL", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "12034", "typeName" : "Hound" }
+{ "_id" : "HA89mLfH9xsLAT9Do", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "642", "typeName" : "Apocalypse" }
+{ "_id" : "HJJooYZ8i5XcfLNxi", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "33689", "typeName" : "Iteron Inner Zone Shipping Edition" }
+{ "_id" : "HMG349hN68qn6ny2M", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "3514", "typeName" : "Revenant" }
+{ "_id" : "HToGmgGDSdcSNhMDj", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "11942", "typeName" : "Silver Magnate" }
+{ "_id" : "Hmw37CLzvNGtHyEWX", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "11375", "typeName" : "Erinye" }
+{ "_id" : "JBWbvTfuKSzkmq8xC", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "620", "typeName" : "Osprey" }
+{ "_id" : "JHMzFDPNdcHdJ9x9b", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "596", "typeName" : "Impairor" }
+{ "_id" : "JKQhoPBZcCghduycL", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "589", "typeName" : "Executioner" }
+{ "_id" : "JNQ3LdEquFra43WgE", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "24690", "typeName" : "Hyperion" }
+{ "_id" : "JX26hDXRvCbW64D3v", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "28661", "typeName" : "Kronos" }
+{ "_id" : "JXwykxQHF3i238WXP", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "17918", "typeName" : "Rattlesnake" }
+{ "_id" : "JdPveGNTjRAdNWpv6", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "33157", "typeName" : "Hurricane Fleet Issue" }
+{ "_id" : "K5FDAQQPjoaimtPrj", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "653", "typeName" : "Wreathe" }
+{ "_id" : "KFy7nhSqM5KE8x2Pu", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "12036", "typeName" : "Dagger" }
+{ "_id" : "KMzjrHWJ8RXjSk5Mf", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "34343", "typeName" : "Phoenix Wiyrkomi Edition" }
+{ "_id" : "KNz3r7CzZpgibTvtw", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "17736", "typeName" : "Nightmare" }
+{ "_id" : "KXxYj3b3gRFbkEEDp", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "34341", "typeName" : "Naglfar Justice Edition" }
+{ "_id" : "Kr55b79vuJE4zqMT9", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "20189", "typeName" : "Fenrir" }
+{ "_id" : "Kz6AF2CkF7f2vjPEd", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "33657", "typeName" : "Punisher Tash-Murkon Edition" }
+{ "_id" : "L3ghNdrWjtt7WhHKd", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "33633", "typeName" : "Maelstrom Krusual Edition" }
+{ "_id" : "LBxfoEiMRiS6Hpdsh", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "11190", "typeName" : "Sentinel" }
+{ "_id" : "LHAyTbCDWf4sqHFyo", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "33695", "typeName" : "Bestower Tash-Murkon Edition" }
+{ "_id" : "LJCzKvNY7q6sqmPYc", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "12019", "typeName" : "Sacrilege" }
+{ "_id" : "LTdy44cjECysEi6WP", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "17715", "typeName" : "Gila" }
+{ "_id" : "LYvvgas3XgMrEA7dP", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "594", "typeName" : "Incursus" }
+{ "_id" : "LaR7APEXivPaFr4Yo", "bos" : 50000000, "gsf" : 50000000, "payout" : 25000000, "typeID" : "24698", "typeName" : "Drake" }
+{ "_id" : "Lsgveeub63ktvgpzS", "bos" : 50000000, "gsf" : 50000000, "payout" : 25000000, "typeID" : "34317", "typeName" : "Confessor" }
+{ "_id" : "LzFLP2Na3JaRbcm4B", "bos" : 50000000, "gsf" : 50000000, "payout" : 25000000, "typeID" : "16233", "typeName" : "Prophecy" }
+{ "_id" : "M2bN4wYdQdzB6CfmC", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "2836", "typeName" : "Adrestia" }
+{ "_id" : "M5QeSnrn6tFWDL5fx", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "11957", "typeName" : "Falcon" }
+{ "_id" : "MFbhE6qjkG4PTKRTP", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "11011", "typeName" : "Guardian-Vexor" }
+{ "_id" : "MQ9As6xKdXpRTjedy", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "22546", "typeName" : "Skiff" }
+{ "_id" : "MX5xNh3d47wxvbgXn", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "27303", "typeName" : "Civilian Gallente Shuttle" }
+{ "_id" : "MsqCX8nnj8GxkB6Wb", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "33099", "typeName" : "Nefantar Thrasher" }
+{ "_id" : "My6qXJJifkBKzyXk7", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "634", "typeName" : "Exequror" }
+{ "_id" : "N3z5eWNH4KnFtPY9M", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "650", "typeName" : "Nereus" }
+{ "_id" : "N6H6zGPBEW8nLoBn6", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "33691", "typeName" : "Tayra Wiyrkomi Edition" }
+{ "_id" : "NASiENT585F4oiuHJ", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "33629", "typeName" : "Rokh Wiyrkomi Edition" }
+{ "_id" : "NGwbTCNoi6TAHXXCi", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "4363", "typeName" : "Miasmos Quafe Ultra Edition" }
+{ "_id" : "NJ54JHZLFa4tWspwA", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "624", "typeName" : "Maller" }
+{ "_id" : "NKGSFKY4Rb35Gs2At", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "32878", "typeName" : "Talwar" }
+{ "_id" : "NMe4X3kNnwWqkvLL3", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "586", "typeName" : "Probe" }
+{ "_id" : "Nbq337mir2z7LEF8b", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "618", "typeName" : "Lynx" }
+{ "_id" : "NquN2uoXP2e3DTKZG", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "11373", "typeName" : "Blade" }
+{ "_id" : "NvEZeN2FLQnSjpp3t", "bos" : 200000000, "gsf" : 200000000, "payout" : 100000000, "typeID" : "22474", "typeName" : "Damnation" }
+{ "_id" : "P2M96tvLaxu4QvD9a", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "32811", "typeName" : "Miasmos Amastris Edition" }
+{ "_id" : "PByQjkQeMditDYAcQ", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "3768", "typeName" : "Amarr Police Frigate" }
+{ "_id" : "PG7F66pvNc4fG9J3p", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "16240", "typeName" : "Catalyst" }
+{ "_id" : "PGceRuwj4dMyXMDvW", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "34229", "typeName" : "Raven Nugoeihuvi Edition" }
+{ "_id" : "PHNM6iwLngBia3tnT", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "12032", "typeName" : "Manticore" }
+{ "_id" : "PLNd9vX3MsepAZuWL", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "26840", "typeName" : "Raven State Issue" }
+{ "_id" : "PLhJmAZQSdr4TiAwg", "bos" : 50000000, "gsf" : 50000000, "payout" : 25000000, "typeID" : "17713", "typeName" : "Stabber Fleet Issue" }
+{ "_id" : "PNjXao6Yqu2NvAsNr", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "33673", "typeName" : "Whiptail" }
+{ "_id" : "PNxt2MyT36TktFmy5", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "4388", "typeName" : "Miasmos Quafe Ultramarine Edition" }
+{ "_id" : "PXPHxcmtAjLzSSLqR", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "33879", "typeName" : "Coercer Blood Raiders Edition" }
+{ "_id" : "Pett9SwkDxyTDXFah", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "3766", "typeName" : "Vigil" }
+{ "_id" : "PhDFikRcTmLCG2y4j", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "17738", "typeName" : "Machariel" }
+{ "_id" : "PzzySd29PGSCfe9j7", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "24694", "typeName" : "Maelstrom" }
+{ "_id" : "QLeh33AGCNLSkh3Ry", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "16242", "typeName" : "Thrasher" }
+{ "_id" : "Qh5LvfttGCJnzppYX", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "622", "typeName" : "Stabber" }
+{ "_id" : "Qk4xubQPDhb3NZgvh", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "17740", "typeName" : "Vindicator" }
+{ "_id" : "R7pPGegJjmrnMd54g", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "17726", "typeName" : "Apocalypse Navy Issue" }
+{ "_id" : "RB8rcSXomM2YaTDAx", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "33155", "typeName" : "Harbinger Navy Issue" }
+{ "_id" : "RXmScJ4ZynSa4cBH4", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "32305", "typeName" : "Armageddon Navy Issue" }
+{ "_id" : "Rfk2eCB2pLqGZXsoQ", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "22544", "typeName" : "Hulk" }
+{ "_id" : "Rqf8HYwym9xo2b4hM", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "32848", "typeName" : "Aliastra Catalyst" }
+{ "_id" : "RrBEhGDS7SQQ8w8nd", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "33623", "typeName" : "Abaddon Tash-Murkon Edition" }
+{ "_id" : "RrwBJNno46oyANJPq", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "33627", "typeName" : "Rokh Nugoeihuvi Edition" }
+{ "_id" : "S7d3WwNh4z7ZMdcfC", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "20185", "typeName" : "Charon" }
+{ "_id" : "SQTqgLkdyAYNiX94N", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "27301", "typeName" : "Civilian Caldari Shuttle" }
+{ "_id" : "STgaBp3C5SuLEqYvt", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "30842", "typeName" : "Interbus Shuttle" }
+{ "_id" : "SYz3bWQJAJ52EENXg", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "23913", "typeName" : "Nyx" }
+{ "_id" : "SeSsDCnhFT7Qpoivc", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "33820", "typeName" : "Barghest" }
+{ "_id" : "Sficn4TW7rE7jqyLv", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "2006", "typeName" : "Omen" }
+{ "_id" : "SmZw7n9fHzvg3qvnQ", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "32985", "typeName" : "Inner Zone Shipping Imicus" }
+{ "_id" : "T5WRjsqjHDcRJfPX2", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "591", "typeName" : "Tormentor" }
+{ "_id" : "TEzoJQWMSDdfPdtiD", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "11174", "typeName" : "Keres" }
+{ "_id" : "TJ9M9HzBxGFAbMdhK", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "34219", "typeName" : "Paladin Blood Raider Edition" }
+{ "_id" : "TKZAs9JSmiksqyk56", "bos" : 65000000, "gsf" : 65000000, "payout" : 32500000, "typeID" : "22460", "typeName" : "Eris" }
+{ "_id" : "TcxaopEtW3A8B5jfD", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "583", "typeName" : "Condor" }
+{ "_id" : "Td2yBJPnFux7BuXhv", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "19724", "typeName" : "Moros" }
+{ "_id" : "TjC6ms9F29eBT3aem", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "11198", "typeName" : "Stiletto" }
+{ "_id" : "TjXiFY4HFvZKHbGGC", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "34213", "typeName" : "Apocalypse Blood Raider Edition" }
+{ "_id" : "TjYHyT22o3LJqe48p", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "29248", "typeName" : "Magnate" }
+{ "_id" : "W3e7eyfturaW2kqck", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "34227", "typeName" : "Raven Kaalakiota Edition" }
+{ "_id" : "W9oEykEfYAJ3oZMdd", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "34239", "typeName" : "Megathron Innerzone Shipping Edition" }
+{ "_id" : "WEFB3LnXDEeubdLdH", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "11999", "typeName" : "Vagabond" }
+{ "_id" : "WEZ4JMYH7fkuLnHYT", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "34225", "typeName" : "Raven Guristas Edition" }
+{ "_id" : "WF43fAqyKZ7DDMNuw", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "11184", "typeName" : "Crusader" }
+{ "_id" : "WSnsGvbNoZav93LKL", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "33637", "typeName" : "Hyperion Innerzone Shipping Edition" }
+{ "_id" : "WbznfQMwdzehTjJBQ", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "33395", "typeName" : "Moracha" }
+{ "_id" : "X2XM4de5B7HMKTaES", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "11567", "typeName" : "Avatar" }
+{ "_id" : "X5jFFcprftmGzuw6J", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "11132", "typeName" : "Minmatar Shuttle" }
+{ "_id" : "X69XB6EmAYy4QLkZx", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "29984", "typeName" : "Tengu" }
+{ "_id" : "X8mWxSE7Hk5Z5FcDm", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "32989", "typeName" : "Vherokior Probe" }
+{ "_id" : "XB4sjz4QuEErad3CS", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "11188", "typeName" : "Anathema" }
+{ "_id" : "XD2FyzCNRFhXjKPZi", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "1900", "typeName" : "Concord Army Frigate" }
+{ "_id" : "XGxnsstM8Dog5nqKq", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "11993", "typeName" : "Cerberus" }
+{ "_id" : "XJYs4XJpPgqJ74A7u", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "20187", "typeName" : "Obelisk" }
+{ "_id" : "XX48EkvDxY9MdGLLo", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "632", "typeName" : "Blackbird" }
+{ "_id" : "Xg4wPf9pBTudLwBqk", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "17720", "typeName" : "Cynabal" }
+{ "_id" : "XrTWvfnpvBFXDsGpX", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "22852", "typeName" : "Hel" }
+{ "_id" : "XshLbtXfkamtneTXW", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "32311", "typeName" : "Typhoon Fleet Issue" }
+{ "_id" : "XuQKh6u2woJgBKQD5", "bos" : 50000000, "gsf" : 50000000, "payout" : 25000000, "typeID" : "33873", "typeName" : "Ferox Guristas Edition" }
+{ "_id" : "Y5XBF3ZghhBPFzrDi", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "11389", "typeName" : "Kishar" }
+{ "_id" : "YCbvSZCKMtTWNo9fF", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "12044", "typeName" : "Enyo" }
+{ "_id" : "YLT24kAgqPEo48ohC", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "32844", "typeName" : "Inner Zone Shipping Catalyst" }
+{ "_id" : "YNPDm7xk8FM39syDJ", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "33651", "typeName" : "Thorax Aliastra Edition" }
+{ "_id" : "Ykww3GLZqBgWKbpys", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "631", "typeName" : "Scythe" }
+{ "_id" : "YuY9okpHB6XYyC4Mv", "bos" : 200000000, "gsf" : 200000000, "payout" : 100000000, "typeID" : "22444", "typeName" : "Sleipnir" }
+{ "_id" : "Yzp7K8K6XxwpvYipb", "bos" : 200000000, "gsf" : 200000000, "payout" : 100000000, "typeID" : "22446", "typeName" : "Vulture" }
+{ "_id" : "Z9i2n9LyPD3DFbrRE", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "32207", "typeName" : "Freki" }
+{ "_id" : "ZFjxBPvkxgf2oeCjx", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "34241", "typeName" : "Kronos Police Edition" }
+{ "_id" : "ZGfE3BDimn86wCmYR", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "614", "typeName" : "Fury" }
+{ "_id" : "ZQv74ZR8K6mESBj63", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "33675", "typeName" : "Chameleon" }
+{ "_id" : "ZYXuLXkATJ97DCrhq", "bos" : 50000000, "gsf" : 50000000, "payout" : 25000000, "typeID" : "24702", "typeName" : "Hurricane" }
+{ "_id" : "ZawpKKbuRaJbpPZFy", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "34339", "typeName" : "Moros Interbus Edition" }
+{ "_id" : "Zf67cc2fekAKMmy6w", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "27299", "typeName" : "Civilian Amarr Shuttle" }
+{ "_id" : "Zh72d4jZ8eAviY8wK", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "29328", "typeName" : "Amarr Media Shuttle" }
+{ "_id" : "ZhqmMKEkB9NQwFH6F", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "12003", "typeName" : "Zealot" }
+{ "_id" : "a3qQ4fDzdhQeKYWGQ", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "12023", "typeName" : "Deimos" }
+{ "_id" : "aCbY4oN2nrMoXJQDX", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "2834", "typeName" : "Utu" }
+{ "_id" : "aa8PTZ3nCMsiSyofA", "bos" : 50000000, "gsf" : 50000000, "payout" : 25000000, "typeID" : "33871", "typeName" : "Cyclone Thukker Tribe Edition" }
+{ "_id" : "afZtXMX9gTW2ogsfb", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "3532", "typeName" : "Echelon" }
+{ "_id" : "amzLrMAKzjrCsKbJ2", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "11172", "typeName" : "Helios" }
+{ "_id" : "avGjDQ7Dt4YW4YAf3", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "11377", "typeName" : "Nemesis" }
+{ "_id" : "aw9riXx7CBobWysbZ", "bos" : 50000000, "gsf" : 50000000, "payout" : 25000000, "typeID" : "29337", "typeName" : "Augoror Navy Issue" }
+{ "_id" : "b4EbbHsaKKB8nQLMR", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "24688", "typeName" : "Rokh" }
+{ "_id" : "b6uvYfdBnsH3ZocZp", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "21628", "typeName" : "Guristas Shuttle" }
+{ "_id" : "bG6WQPKSMas8aSNii", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "640", "typeName" : "Scorpion" }
+{ "_id" : "bLvoxzWR836xTAxeF", "bos" : 200000000, "gsf" : 200000000, "payout" : 100000000, "typeID" : "22448", "typeName" : "Absolution" }
+{ "_id" : "bXJTaegugFuGWpL4Z", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "32880", "typeName" : "Venture" }
+{ "_id" : "bXrggG44YXMb9j5hw", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "34221", "typeName" : "Paladin Kador Edition" }
+{ "_id" : "bZFAnzrqEE7wGmrh4", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "635", "typeName" : "Opux Luxury Yacht" }
+{ "_id" : "bacC4tY4CsLjRELbu", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "34345", "typeName" : "Revelation Sarum Edition" }
+{ "_id" : "bcjvHxs5TaBwa3PBZ", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "29986", "typeName" : "Legion" }
+{ "_id" : "bp2pADf4LpAGxjjrC", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "24483", "typeName" : "Nidhoggur" }
+{ "_id" : "byyRMFvG4tDdRSK7L", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "17476", "typeName" : "Covetor" }
+{ "_id" : "bznpqS9qSndDE3X6u", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "609", "typeName" : "Maulus" }
+{ "_id" : "c4HnkM38GpC9w5wCR", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "17728", "typeName" : "Megathron Navy Issue" }
+{ "_id" : "caT6o5373CwxtBhwp", "bos" : 50000000, "gsf" : 50000000, "payout" : 25000000, "typeID" : "33875", "typeName" : "Prophecy Blood Raiders Edition" }
+{ "_id" : "dHxga5JSX8apDAQ8d", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "11194", "typeName" : "Kitsune" }
+{ "_id" : "dPAFEFHuohaRR2wMd", "bos" : 150000000, "gsf" : 150000000, "payout" : 75000000, "typeID" : "11985", "typeName" : "Basilisk" }
+{ "_id" : "dZ6x6jfhe54a84MWb", "bos" : 65000000, "gsf" : 65000000, "payout" : 32500000, "typeID" : "22456", "typeName" : "Sabre" }
+{ "_id" : "dvK8oSLxKvNqeMhfW", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "12745", "typeName" : "Occator" }
+{ "_id" : "e6x663jaidGijwXvm", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "12753", "typeName" : "Impel" }
+{ "_id" : "eZTxNQZrGWdr5dadR", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "12733", "typeName" : "Prorator" }
+{ "_id" : "euWwmKperMhqcWETa", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "11129", "typeName" : "Gallente Shuttle" }
+{ "_id" : "fAMj5TDmbFJXduJ5J", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "23773", "typeName" : "Ragnarok" }
+{ "_id" : "fB939r5TpzjAccsRv", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "28665", "typeName" : "Vargur" }
+{ "_id" : "fGJvAaRQhBPti4qx7", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "11200", "typeName" : "Taranis" }
+{ "_id" : "fYqRkptCBKpeQvEk4", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "17732", "typeName" : "Tempest Fleet Issue" }
+{ "_id" : "faWrYH54inEhBbvS8", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "28710", "typeName" : "Golem" }
+{ "_id" : "fwdqbpqpv6J8W3xJM", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "627", "typeName" : "Thorax" }
+{ "_id" : "g2tiYBmTpPgWdLA5D", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "33468", "typeName" : "Astero" }
+{ "_id" : "gEXkWiaSfyw9jKGGe", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "33470", "typeName" : "Stratios" }
+{ "_id" : "gFQ4EZimG6pvnC9f2", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "33669", "typeName" : "Incursus Innerzone Shipping Edition" }
+{ "_id" : "gKGgMBY7ZeEXKC5ET", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "34231", "typeName" : "Golem Guristas Edition" }
+{ "_id" : "gLM5JBk9mGhZkCyYx", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "33659", "typeName" : "Merlin Nugoeihuvi Edition" }
+{ "_id" : "gMqq3AJQNAqwGQJKf", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "587", "typeName" : "Rifter" }
+{ "_id" : "gZcQjNt59xDzxcP4h", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "643", "typeName" : "Armageddon" }
+{ "_id" : "gcLaTQBPDqiqwzCTX", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "17920", "typeName" : "Bhaalgorn" }
+{ "_id" : "gt8Z8nackxHoKeECv", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "11371", "typeName" : "Wolf" }
+{ "_id" : "gvt3psR3iekHLH3ke", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "3628", "typeName" : "Nation" }
+{ "_id" : "h3gfGJ6Y9rmQ9TReC", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "613", "typeName" : "Devourer" }
+{ "_id" : "h46tg6svMSF9fRJcS", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "33643", "typeName" : "Caracal Nugoeihuvi Edition" }
+{ "_id" : "hRBALkuyQKZwHgYP7", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "1944", "typeName" : "Bestower" }
+{ "_id" : "hbm97nRvRLSLY8BZM", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "17812", "typeName" : "Republic Fleet Firetail" }
+{ "_id" : "hdcEJ47WuP5ZzF7Ys", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "33083", "typeName" : "Violator" }
+{ "_id" : "hhDFwo2HvgouSfqYj", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "32209", "typeName" : "Mimir" }
+{ "_id" : "hnJBCAS9A2cNsxK5r", "bos" : 50000000, "gsf" : 50000000, "payout" : 25000000, "typeID" : "3756", "typeName" : "Gnosis" }
+{ "_id" : "hvgiTCuMSqhszRpRA", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "28352", "typeName" : "Rorqual" }
+{ "_id" : "i7efyQCbpiJrqNPGW", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "34243", "typeName" : "Kronos Quafe Edition" }
+{ "_id" : "iA7ynBj3ntMZDA3is", "bos" : 50000000, "gsf" : 50000000, "payout" : 25000000, "typeID" : "33869", "typeName" : "Brutix Serpentis Edition" }
+{ "_id" : "iBJWQ6PjimybMwRmD", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "33079", "typeName" : "Hematos" }
+{ "_id" : "iKNQKNQt9f7bbJQoK", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "11186", "typeName" : "Malediction" }
+{ "_id" : "iYGxSopMbSYyXbKBm", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "32840", "typeName" : "InterBus Catalyst" }
+{ "_id" : "iarsS27kzymSvJXAs", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "33553", "typeName" : "Stratios Emergency Responder" }
+{ "_id" : "iefFPuvfsyEpFyJFZ", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "33328", "typeName" : "Capsule - Genolution 'Auroral' 197-variant" }
+{ "_id" : "ifPtvoH3jfuBEG2qL", "bos" : 50000000, "gsf" : 50000000, "payout" : 25000000, "typeID" : "4306", "typeName" : "Naga" }
+{ "bos" : 50000000, "gsf" : 50000000, "typeID" : "34562", "typeName" : "Svipul", "_id" : "ifYTPyWaeWzmLnmhj" }
+{ "_id" : "ikQZPrBT6gnEP5LWG", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "621", "typeName" : "Caracal" }
+{ "_id" : "ikftAxcWFdq4rrQpK", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "22436", "typeName" : "Widow" }
+{ "_id" : "impLzMJezdQGWZ53g", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "28850", "typeName" : "Ark" }
+{ "_id" : "irKg4s3FvZ43GTZp9", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "32307", "typeName" : "Dominix Navy Issue" }
+{ "_id" : "iskTFR5HJS3CFZEuo", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "34328", "typeName" : "Bowhead" }
+{ "_id" : "j5rRrp5pqdAmhpEmG", "bos" : 214000000, "gsf" : 214000000, "payout" : 107000000, "typeID" : "11995", "typeName" : "Onyx" }
+{ "_id" : "j79k6NtqoHiHCDHNS", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "33641", "typeName" : "Omen Tash-Murkon Edition" }
+{ "_id" : "j7CpXpssLyNxjCAG7", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "33697", "typeName" : "Prospect" }
+{ "_id" : "jMAN8E4RsfXfPHbCs", "bos" : 214000000, "gsf" : 214000000, "payout" : 107000000, "typeID" : "12021", "typeName" : "Phobos" }
+{ "_id" : "jPzx4desbKdBN63zY", "bos" : 50000000, "gsf" : 50000000, "payout" : 25000000, "typeID" : "16227", "typeName" : "Ferox" }
+{ "_id" : "k53TMv47dpGhgusn7", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "33667", "typeName" : "Incursus Aliastra Edition" }
+{ "_id" : "kDcLELJoyvZws6urm", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "17926", "typeName" : "Cruor" }
+{ "_id" : "kFQTDJz5sB2QLWvri", "bos" : 50000000, "gsf" : 50000000, "payout" : 25000000, "typeID" : "29344", "typeName" : "Exequror Navy Issue" }
+{ "_id" : "kPBeZhQz7M3qLoqBs", "bos" : 200000000, "gsf" : 200000000, "payout" : 100000000, "typeID" : "22466", "typeName" : "Astarte" }
+{ "_id" : "kSBb57W6DEac5pwgu", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "17924", "typeName" : "Succubus" }
+{ "_id" : "ktCaCAzkbph6x8mac", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "601", "typeName" : "Ibis" }
+{ "_id" : "ktv4GPnpL6HNd8Bhi", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "12005", "typeName" : "Ishtar" }
+{ "_id" : "m9S79RE4dcs5yik3W", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "12011", "typeName" : "Eagle" }
+{ "_id" : "mECK5LJPDrGq8GM79", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "9858", "typeName" : "Polaris Centurion TEST" }
+{ "_id" : "mP7etTNJnhj4s96Fw", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "1233", "typeName" : "Polaris Enigma Frigate" }
+{ "_id" : "mcgwFoaosvvzSE389", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "29330", "typeName" : "Caldari Media Shuttle" }
+{ "_id" : "mdqqbpziHCybSHmRj", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "17360", "typeName" : "Immovable Enigma" }
+{ "_id" : "mehZHDuihTj7fy6qX", "bos" : 50000000, "gsf" : 50000000, "payout" : 25000000, "typeID" : "16231", "typeName" : "Cyclone" }
+{ "_id" : "mi45RmSgj9DWMAQEk", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "11365", "typeName" : "Vengeance" }
+{ "_id" : "mmJqKSd7NdPtAxKL4", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "12731", "typeName" : "Bustard" }
+{ "_id" : "mmozrBiCW3w2wFtcb", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "19744", "typeName" : "Sigil" }
+{ "_id" : "mtkKx6kStDYepc7bS", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "19722", "typeName" : "Naglfar" }
+{ "_id" : "n4Z3SB2KR7kgyZauG", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "33635", "typeName" : "Hyperion Aliastra Edition" }
+{ "_id" : "n6DKWLJzHftqNXhnc", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "657", "typeName" : "Iteron Mark V" }
+{ "_id" : "n7GbEaoD98JzTrjBx", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "12729", "typeName" : "Crane" }
+{ "_id" : "n9QfzmfXRNhb5kyBB", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "595", "typeName" : "Gallente Police Ship" }
+{ "_id" : "nQ8pffxPBmH2BHK7X", "bos" : 50000000, "gsf" : 50000000, "payout" : 25000000, "typeID" : "4308", "typeName" : "Talos" }
+{ "_id" : "nSjosyNfHe9SKieSC", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "2078", "typeName" : "Zephyr" }
+{ "_id" : "nY5twqS4FDpvPPSiA", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "33645", "typeName" : "Caracal Wiyrkomi Edition" }
+{ "_id" : "nbRjR3iDzF7DvNxvp", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "1896", "typeName" : "Concord Police Frigate" }
+{ "_id" : "ndJcp8STubifqgKre", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "11134", "typeName" : "Amarr Shuttle" }
+{ "_id" : "neY6Xj5iyPZfp4AiQ", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "11019", "typeName" : "Cockroach" }
+{ "_id" : "necb6bwyT96cv8Q7A", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "34118", "typeName" : "Megathron Quafe Edition" }
+{ "_id" : "nftk4NMc8moLBFLHG", "bos" : 50000000, "gsf" : 50000000, "payout" : 25000000, "typeID" : "17709", "typeName" : "Omen Navy Issue" }
+{ "_id" : "nohWGRhEtWSaCN8QJ", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "648", "typeName" : "Badger" }
+{ "_id" : "nvPhdo2nTojnf89ot", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "670", "typeName" : "Capsule" }
+{ "_id" : "nw3SYiHTr7mhAmbq4", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "602", "typeName" : "Kestrel" }
+{ "_id" : "ny54m2qvwD7JSRs4p", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "29988", "typeName" : "Proteus" }
+{ "_id" : "nyN6Ex5j8MHMGHiFx", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "3764", "typeName" : "Leviathan" }
+{ "_id" : "nzqfCYSEGbHMpe942", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "33687", "typeName" : "Rorqual ORE Development Edition" }
+{ "_id" : "oN9xzqkJcyS7B72F6", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "592", "typeName" : "Navitas" }
+{ "_id" : "oQYjmJGXc5Mb8Jw49", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "600", "typeName" : "Minmatar Peacekeeper Ship" }
+{ "_id" : "oQbmL3ci5n2fmyr4L", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "1902", "typeName" : "Concord Special Ops Frigate" }
+{ "_id" : "oeHSGf6KTiSEEfvFt", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "3753", "typeName" : "SOCT 2" }
+{ "_id" : "onfujLJATLctdoigH", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "33818", "typeName" : "Orthrus" }
+{ "_id" : "op9FRXXgpwKB8PaNm", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "605", "typeName" : "Heron" }
+{ "_id" : "p2p5hiQvCP6zacug8", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "33693", "typeName" : "Mammoth Nefantar Edition" }
+{ "_id" : "p4zSMxkBCrthn74gv", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "32872", "typeName" : "Algos" }
+{ "_id" : "pcm7PXrPSWhnKrrB8", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "11400", "typeName" : "Jaguar" }
+{ "_id" : "pcpZWezhH3to7bPz9", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "11969", "typeName" : "Arazu" }
+{ "_id" : "pifFk4rDZW6Qb2T7G", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "23919", "typeName" : "Aeon" }
+{ "_id" : "prs9G7zadWrQchAdj", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "12735", "typeName" : "Prowler" }
+{ "_id" : "pvrN4xcBvts6trQD9", "bos" : 200000000, "gsf" : 200000000, "payout" : 100000000, "typeID" : "22468", "typeName" : "Claymore" }
+{ "_id" : "q8kwk9YNqAisaGvHe", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "11387", "typeName" : "Hyena" }
+{ "_id" : "qB7cn5JRJegTqAm6J", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "26842", "typeName" : "Tempest Tribal Issue" }
+{ "_id" : "qFtuHN8hkd5rHyivB", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "34237", "typeName" : "Megathron Police Edition" }
+{ "_id" : "qKugENG6oczqNoSaH", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "17480", "typeName" : "Procurer" }
+{ "_id" : "qWdgzdGrw2wHbai3D", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "33625", "typeName" : "Abaddon Kador Edition" }
+{ "_id" : "qYs8iYx6TvCKe76a2", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "28848", "typeName" : "Anshar" }
+{ "_id" : "qZhaXJvFW7jrBGMmp", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "633", "typeName" : "Celestis" }
+{ "_id" : "qh3KT9GAbXSHpdrHB", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "654", "typeName" : "Kryos" }
+{ "_id" : "qssteCpGvrgqos2kj", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "34247", "typeName" : "Tempest Justice Edition" }
+{ "_id" : "rCj2x5u7YqYwzwrW3", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "13202", "typeName" : "Megathron Federate Issue" }
+{ "_id" : "rJ9DeTt2eSDx57Hn2", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "28844", "typeName" : "Rhea" }
+{ "_id" : "rMWjFZohBvcEtAidB", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "11176", "typeName" : "Crow" }
+{ "_id" : "rN8rbWuaxdSsMuZEX", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "582", "typeName" : "Bantam" }
+{ "_id" : "rSCJt6JoE5S7hJtbR", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "608", "typeName" : "Atron" }
+{ "_id" : "s65WDFKSF8mNNyG82", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "656", "typeName" : "Miasmos" }
+{ "_id" : "s9LvccXkDyWLdrjYM", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "23917", "typeName" : "Wyvern" }
+{ "_id" : "sASfnmdX5iws5FB8Y", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "4005", "typeName" : "Scorpion Ishukone Watch" }
+{ "_id" : "sFMmMBxs6okDxCjne", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "23915", "typeName" : "Chimera" }
+{ "_id" : "sGyvXdqTt95o4MktL", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "22430", "typeName" : "Sin" }
+{ "_id" : "sJTBz83nsFD8WsuGj", "bos" : 150000000, "gsf" : 150000000, "payout" : 75000000, "typeID" : "11989", "typeName" : "Oneiros" }
+{ "_id" : "sKeptZbhLcEwcctjd", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "33685", "typeName" : "Orca ORE Development Edition" }
+{ "_id" : "sLXvgkkuivz8gbkAR", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "33661", "typeName" : "Merlin Wiyrkomi Edition" }
+{ "_id" : "scRpjsncGjEMDiyXZ", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "32309", "typeName" : "Scorpion Navy Issue" }
+{ "_id" : "skypPtYqHKnc2MqH5", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "616", "typeName" : "Medusa" }
+{ "_id" : "t4oPxMscXW366gw3J", "bos" : 50000000, "gsf" : 50000000, "payout" : 25000000, "typeID" : "29340", "typeName" : "Osprey Navy Issue" }
+{ "_id" : "t7NYTJug9h9oRBQSt", "bos" : 200000000, "gsf" : 200000000, "payout" : 100000000, "typeID" : "22442", "typeName" : "Eos" }
+{ "_id" : "t9PrfN3sudNWksodf", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "34235", "typeName" : "Golem Nugoeihuvi Edition" }
+{ "_id" : "tB8zf8itx3dFCvRzb", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "623", "typeName" : "Moa" }
+{ "_id" : "tEogExwK6CcKnzwcP", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "16236", "typeName" : "Coercer" }
+{ "_id" : "tehZA5aWNxGDddnLh", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "9860", "typeName" : "Polaris Legatus Frigate" }
+{ "_id" : "tn76RyZv7sa6F3ZQf", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "603", "typeName" : "Merlin" }
+{ "_id" : "tsv3PztbA3gtMX9yT", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "28659", "typeName" : "Paladin" }
+{ "_id" : "uFe9pjf4DZNcmEE3f", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "12042", "typeName" : "Ishkur" }
+{ "_id" : "uLysAGCEvMSaWgukw", "bos" : 65000000, "gsf" : 65000000, "payout" : 32500000, "typeID" : "22452", "typeName" : "Heretic" }
+{ "_id" : "ue3FSuvnSoLskH2em", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "11383", "typeName" : "Gatherer" }
+{ "_id" : "ueZ7YmkX3qJq5Kr5F", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "11192", "typeName" : "Buzzard" }
+{ "_id" : "upFzfzfSXh5BGwuXC", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "1918", "typeName" : "Concord Army Battleship" }
+{ "_id" : "uvkcSEKo5iqdFDm79", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "615", "typeName" : "Immolator" }
+{ "_id" : "uybyaumzibyi44nLG", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "12747", "typeName" : "Mastodon" }
+{ "_id" : "vEZvNYT7FXA4oSx87", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "652", "typeName" : "Mammoth" }
+{ "_id" : "vHqZk55oYsLpixDR5", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "33683", "typeName" : "Mackinaw ORE Development Edition" }
+{ "_id" : "vY9QFueux7FEWDBNg", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "20125", "typeName" : "Curse" }
+{ "_id" : "vsegvSstxSsyKTH37", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "619", "typeName" : "Swordspine" }
+{ "_id" : "w233ro5Tymn5c6NNA", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "599", "typeName" : "Burst" }
+{ "_id" : "w3Bvj9hJLw939zKo5", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "17478", "typeName" : "Retriever" }
+{ "_id" : "wRm9xxZuXm3Ff3nBY", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "639", "typeName" : "Tempest" }
+{ "_id" : "wWPiRB2Ex8oyP3JgT", "bos" : 50000000, "gsf" : 50000000, "payout" : 25000000, "typeID" : "24700", "typeName" : "Myrmidon" }
+{ "_id" : "wYF22BzDubrPGNdcR", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "2863", "typeName" : "Primae" }
+{ "_id" : "wf6adXsJdrb5x34GN", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "655", "typeName" : "Epithal" }
+{ "_id" : "whdZikfmw5XfNKx97", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "651", "typeName" : "Hoarder" }
+{ "_id" : "wpu59CEn2guQQjRQh", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "34223", "typeName" : "Paladin Tash-Murkon Edition" }
+{ "_id" : "x3423ZZRMyCywa24B", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "28846", "typeName" : "Nomad" }
+{ "_id" : "x9LDjcR9hEJ2mNzvT", "bos" : 80000000, "gsf" : 80000000, "payout" : 40000000, "typeID" : "33631", "typeName" : "Maelstrom Nefantar Edition" }
+{ "_id" : "xBAgNKJrRFF5EhPNa", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "617", "typeName" : "Echo" }
+{ "_id" : "xKzZfBedqPHHuNWtR", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "593", "typeName" : "Tristan" }
+{ "_id" : "xL9WrKvgcF7ZX3K2L", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "33663", "typeName" : "Rifter Nefantar Edition" }
+{ "_id" : "xSikYyqcXb87CjWRo", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "9854", "typeName" : "Polaris Inspector Frigate" }
+{ "_id" : "xstd7MzNnKjgNYLBK", "bos" : 50000000, "gsf" : 50000000, "payout" : 25000000, "typeID" : "17843", "typeName" : "Vexor Navy Issue" }
+{ "_id" : "y8WvxerB23qZvwCky", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "3751", "typeName" : "SOCT 1" }
+{ "_id" : "yAG6LJtTJcKxz4BRZ", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "33513", "typeName" : "Leopard" }
+{ "_id" : "yDEAy4C38kQGitEz9", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "33649", "typeName" : "Stabber Krusual Edition" }
+{ "_id" : "yiCkBH2i8huuagc8s", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "628", "typeName" : "Arbitrator" }
+{ "_id" : "ykXrGTWpbLYaaBGoY", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "33877", "typeName" : "Catalyst Serpentis Edition" }
+{ "_id" : "yntBz4Maech5tdDtE", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "23911", "typeName" : "Thanatos" }
+{ "_id" : "z542qucHanbP9mCXR", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "625", "typeName" : "Augoror" }
+{ "_id" : "zD4ybXZzjXYbrTKEM", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "3518", "typeName" : "Vangel" }
+{ "_id" : "zahjXw2iutwkvZSWF", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "598", "typeName" : "Breacher" }
+{ "_id" : "zdHtinz7W2pNMaa8G", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "584", "typeName" : "Griffin" }
+{ "_id" : "zdKEQBzwKKyzd2QRf", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "11381", "typeName" : "Harpy" }
+{ "_id" : "zjZ9eduboD79A7Hei", "bos" : 25000000, "gsf" : 25000000, "payout" : 12500000, "typeID" : "33639", "typeName" : "Omen Kador Edition" }
+{ "_id" : "zqRKwDqxWGw58Zam9", "bos" : 0, "gsf" : 0, "payout" : 0, "typeID" : "606", "typeName" : "Velator" }
+{ "_id" : "zrawD8waPxg4HYwXP", "bos" : 100000000, "gsf" : 100000000, "payout" : 50000000, "typeID" : "17722", "typeName" : "Vigilant" }

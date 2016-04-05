@@ -1,0 +1,9 @@
+<template name="apiCharacter">
+[{{ this.corporationName }}] {{ this.characterName }}
+  {{#if this.hidden }}<a href="" class="btn btn-xs btn-default
+  hideChar">Unhide</a>{{/if}}{{#if isMain }}
+      <span class="label label-success">MAINCHAR</span>
+          {{/if}}<a href="" class="btn btn-xs btn-default mainChar">Set as
+          main</a>
+              <br>
+</template>

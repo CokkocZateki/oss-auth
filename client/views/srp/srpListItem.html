@@ -1,0 +1,32 @@
+<template name="srpListItem">
+    <tr>
+      <th scope="row"><a href="https://zkillboard.com/kill/{{this.killID}}"
+      target="_blank">{{ this.killID }}</a></th>
+      <td>{{ formatTime this.killTime }}</td>
+      <td onclick="CCPEVE.showMap({{this.solarSystem.id}})">{{
+      this.solarSystem.name }}</td>
+      <td onclick="CCPEVE.showInfo(1377, {{ this.victim.character.id }})">{{
+      this.victim.character.name }}
+      <br>User: {{ this.username }}</td>
+      <td>{{ this.victim.shipType.name }}</td>
+      <td>
+        <span class="label label-danger">Loss: {{ formatISK this.loss
+        }}</span><br>
+        <span class="label label-success">Payout = {{ formatISK this.payout
+        }}</span>
+      </td>
+      <td> 
+        <span class="label label-{{statusclass}}">{{ this.status
+}}</span>{{#if
+        this.editor}}<small> by {{this.editor}}</small>{{/if}}
+        {{#if this.comment }}
+          <small><br>Comment:<br>{{ this.comment }}</small>
+        {{/if}}
+        <br>
+        <div class="btn-group pull-right" role="group">
+          <a href="/srp/{{this._id}}" class="btn btn-sm btn-default"><i
+          class="fa fa-check-square-o"></i> Detail</a>
+        </div>
+      </td>
+    </tr>  
+</template>

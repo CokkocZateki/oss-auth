@@ -1,0 +1,15 @@
+<template name="absenceItem">
+    <tr>
+      <td>{{user this._u}}</td>
+      <td>{{formatTimeUTC this.start}}</td>
+      <td>{{formatTimeUTC this.end}}</td>
+      <td>{{this.comment}}</td>
+      <td> 
+        {{#if canAdd}}
+        <div class="btn-group pull-right" role="group">
+          <button class="btn btn-xs btn-danger delete"><i class="fa fa-trash"></i> Delete</button>
+        </div>
+        {{/if}}
+      </td>
+    </tr>  
+</template>

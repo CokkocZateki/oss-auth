@@ -1,0 +1,125 @@
+<template name="srp">
+<div class="row">
+  <div class="col-sm-12 col-md-6">
+    <h2>Your Reimbursements</h2>
+    {{#if errorMessages}}
+    <div class="list-errors">
+    {{#each errorMessages}}
+    <div class="alert alert-danger"><strong>Warning!</strong>
+      <div class="error-msg">{{this}}</div>
+    </div>
+    {{/each}}
+    </div>
+    {{/if}}
+
+    <button id="requestSRP" class="btn btn-primary">Request SRP</button>
+    {{#if processable }}
+    <button id="processSRP" class="btn btn-primary">Search open SRP</button>
+    {{/if}}
+  </div>
+  <div class="col-sm-12 col-md-6">
+    <h2>Statistics for {{currentMonth}}</h2>
+    {{#if statsLoaded}}
+    Your BOS Payout: {{formatISK personalStats.total}}<br>
+    <a class="btn btn-default" data-toggle="collapse" href="#collapseStats"
+    aria-expanded="false" aria-controls="collapseStats">Show Stats</a>
+    <div class="collapse" id="collapseStats">
+          <button id="prevMonth" class="btn btn-xs btn-primary">&lt; &lt;
+          MONTH</button><button id="nextMonth" class="btn btn-xs
+          btn-primary">MONTH &gt; &gt;</button>
+          
+      <table class="table table-condensed">
+        <thead>
+          <tr>
+            <th>Member</th>
+            <th>#</th>
+            <th>BOS Payout</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#each stats}}
+          <tr>
+            <td>{{this.username}}</td>
+            <td>{{this.count}}</td>
+            <td>{{formatISK this.total}}</td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
+    </div>
+    {{else}}
+    {{>spinner}}
+    {{/if}}
+  </div>
+</div>
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th>#killID</th>
+      <th>Time</th>
+      <th>System</th>
+      <th>Pilot</th>
+      <th>Ship Type</th>
+      <th>Payout</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+  {{#each reimbursements}}
+    {{>srpListItem}}
+  {{/each}}
+  </tbody>
+</table>
+{{#if loading}}
+{{> spinner }}
+{{/if}}
+{{>requestSRPModal}}
+</template>
+
+<template name="requestSRPModal">
+  <div id="requestSRPModal" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" data-dismiss="modal" aria-hidden="true" class="close">&times;</button>
+          <h4 class="modal-title">Request SRP</h4>
+          <div class="clearfix"></div><br>
+          <div id="own-login">
+            <form class="form-horizontal">
+              <div class="form-group">
+                {{#if errorMessages}}
+                <div class="list-errors">
+                  {{#each errorMessages}}
+                    <div class="alert alert-danger"><strong>Achtung!</strong>
+                      <div class="error-msg">{{this}}</div>
+                    </div>
+                  {{/each}}
+                </div>
+                {{/if}}
+              </div>
+              <div class="form-group">
+                <label for="inputCrest" class="col-xs-2 col-sm-offset-0">CREST Link:</label>
+                <div class="col-xs-8 col-sm-offset-0">
+                  <input id="inputCrest" type="text" name="crest" placeholder="CREST Link" class="form-control">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputBroadcast" class="col-xs-2 col-sm-offset-0">Broadcast:</label>
+                <div class="col-xs-8 col-sm-offset-0">
+                  <textarea id="inputUsername" name="broadcast" cols="40" rows="10"
+                  placeholder="Broadcast/Ping/Forum Post, if there was any."
+class="form-control"></textarea>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-xs-8 col-sm-offset-2">
+                  <input name="requestSRP" type="submit" value="request SRP" class="btn btn-primary pull-right">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

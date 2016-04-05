@@ -1,0 +1,31 @@
+<template name="character">
+<button class="btn btn-primary" id="listUnknow">Show Unknown
+Characters</button>
+<textarea class="form-control hidden" id="output"></textarea>
+<table class="table table-hover table-striped">
+  <thead>
+    <tr>
+      <th>API</th>
+      <th>Character</th>
+      <th>Owner</th>
+      <th>Titles</th>
+      <th>Joined</th>
+      <th>last Login</th>
+    </tr>
+  </thead>
+  <tbody>
+{{#each characters}}
+    <tr>
+      <td>{{#if this._u }}<span class="label label-success">Known</span>{{else}}<span class="label
+      label-danger">Unknow</span>{{/if}}</td>
+      <td>{{ this.characterName }}</td>
+      <td>{{ this.username }}</td>
+      <td>{{#each  parseTitles this.titles}}<span
+      class="label" style="background-color:{{this.color}}">{{this.title}}</span> {{/each}}</td>
+      <td>{{ this.startDateTime }} </td>
+      <td>{{ this.logonDateTime }}{{#if this.shipType}}<br>{{this.shipType}}/{{this.location}}{{/if}}</td>
+    </tr>
+{{/each}}
+  </tbody>
+</table>
+</template>

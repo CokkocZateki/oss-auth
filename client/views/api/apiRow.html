@@ -1,0 +1,9 @@
+<template name="apiRow">
+<tr>
+  <td><button class="updateApi btn btn-xs btn-default">Update</button></td>
+  <td>{{ keyID }}</td>
+  <td>****************<br>{{accessMask}}</td>
+  <td>{{#each characters }}{{>apiCharacter}}{{/each}}</td>
+  <td>{{ status }}<br>{{ expires }}</td>
+</tr>
+</template>

@@ -1,0 +1,108 @@
+<template name="absences">
+<div class="row">
+  <div class="col-sm-12 col-md-6">
+    <h2>Current Absences</h2>
+    {{#if errorMessages}}
+    <div class="list-errors">
+    {{#each errorMessages}}
+    <div class="alert alert-danger"><strong>Warning!</strong>
+      <div class="error-msg">{{this}}</div>
+    </div>
+    {{/each}}
+    </div>
+    {{/if}}
+    <button id="addAbsence" class="btn btn-primary">Add Absence</button>
+  </div>
+</div>
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th>User</th>
+      <th>Start</th>
+      <th>End</th>
+      <th>Comment</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+  {{#each absences}}
+    {{>absenceItem}}
+  {{/each}}
+  </tbody>
+</table>
+<div class="row">
+  <div class="col-sm-12 col-md-6">
+    <h2>Past Absences</h2>
+  </div>
+</div>
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th>User</th>
+      <th>Start</th>   
+      <th>End</th>   
+      <th>Comment</th>
+      <th>Actions</th>
+    </tr>  
+  </thead>
+  <tbody>  
+  {{#each oldAbsences}}
+    {{>absenceItem}}
+  {{/each}}
+  </tbody>
+</table>
+
+{{>addAbsenceModal}}
+</template>
+
+<template name="addAbsenceModal">
+  <div id="addAbsenceModal" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" data-dismiss="modal" aria-hidden="true" class="close">&times;</button>
+          <h4 class="modal-title">Add absence</h4>
+          <div class="clearfix"></div><br>
+          <div id="own-login">
+            <form class="form-horizontal">
+              <div class="form-group">
+                {{#if errorMessages}}
+                <div class="list-errors">
+                  {{#each errorMessages}}
+                    <div class="alert alert-danger"><strong>Achtung!</strong>
+                      <div class="error-msg">{{this}}</div>
+                    </div>
+                  {{/each}}
+                </div>
+                {{/if}}
+              </div>
+              <div class="form-group">
+                <label for="startTime" class="col-xs-2 col-sm-offset-0">Start</label>
+                <div class="col-xs-8 col-sm-offset-0">
+                  <input id="startTime" type="text" name="start" placeholder="" class="form-control datetimepicker">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="endTime" class="col-xs-2 col-sm-offset-0">End</label>
+                <div class="col-xs-8 col-sm-offset-0">
+                  <input id="endTime" type="text" name="end" placeholder="" class="form-control datetimepicker">
+                </div>
+              </div>  
+              <div class="form-group">
+                <label for="inputNotes" class="col-xs-2 col-sm-offset-0">Comment:</label>
+                <div class="col-xs-8 col-sm-offset-0">
+                  <textarea id="inputNotes" name="comment" cols="40" rows="10" placeholder="your Message" class="form-control"></textarea>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-xs-8 col-sm-offset-2">
+                  <input name="addAbsence" type="submit" value="Add Absence" class="btn btn-primary pull-right">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
