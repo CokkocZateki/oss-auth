@@ -1,25 +1,20 @@
 ## EVE Online - OSS Auth
 
-# THIS README IS DEPRECATED
-
-What is it?
-http://puu.sh/f5Gfd/2738bf4daa.png
-http://puu.sh/f5Ha1/834b57620c.png
-http://puu.sh/f8Dnd/5f1c10107b.png
-
-
 ### Requirements:
- - Meteor
- - Node.js
- - MongoDB
+Meteor: curl https://install.meteor.com/ | sh
 
 ### Getting started
-1. git clone http://git.ermer.de/eve/auth.git
+1. clone this
 2. Create settings.json in root (content see below)
-3. Run Meteor
+3. Run Meteor (see below)
 
-#### Run Meteor:
-ROOT_URL=https://domain meteor --production --settings settings.json
+#### Build Production:
+./build.sh
+
+#### Run Development:
+meteor --settings settings.json
+Open localhost:3000
+
 
 #### settings.json content:
 
@@ -39,7 +34,8 @@ isDev prevents cronJobs.
     "from": "The OSS - AUTH <auth@bos.gs>"
   },
   "public": {
-    "publicJabber": 1
+    "publicJabber": 1,
+    "publicVoice": 0
   }
 }
 
