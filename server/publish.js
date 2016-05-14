@@ -150,6 +150,32 @@ Meteor.publish("member", function(id) {
   } 
 });
 
+Meteor.publish("membersPaged", function(username, limit) {
+  var user=Meteor.users.findOne(this.userId);
+  if (user) console.log("membersPaged", user.username, username, limit);
+  if (user && (user.hasRole(["SRP", "Director", "Associate Director"]))) {
+    var filter={};
+    if (username) filter.username=new RegExp('.*' + username + '.*', 'i');
+    if (!user.hasRole("Admin")) {
+      filter['roles.'+user.group(true)]={"$in": ["Member"]};
+    }
+    var users=Meteor.users.find(
+        filter,
+        {
+          limit: limit,
+          sort: {username: 1},
+          fields: {username: 1, 'profile.main': 1, 'profile.status': 1, roles: 1, notes:1, authorizations: 1}
+        }
+      ) 
+    return [
+      users,
+      Characters.find({_u : {$in: users.fetch().map(function(u) { return u._id; }) }})
+    ];
+  } else {
+    return this.ready();
+  }
+});
+
 Meteor.publish("members", function() {
   var user=Meteor.users.findOne(this.userId);
   if (user && user.hasRole(["Director", "Associate Director", "Admin"])) {
