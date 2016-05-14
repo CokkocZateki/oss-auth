@@ -41,6 +41,17 @@ isDev prevents cronJobs.
   "public": {
     "publicJabber": 1,
     "publicVoice": 0
+  },
+  "access": {
+    "AUTH_JABBER": 1,
+    "AUTH_VOICE": 2,
+    "AUTH_FORUM": 4
+  },
+  "forum": {
+    "categories": {
+      "ops": 19
+    },
+    "url": "https://forum.oss.rocks/api/v1/topics"
   }
 }
 
