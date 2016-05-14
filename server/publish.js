@@ -206,10 +206,12 @@ Meteor.publish('pings', function(){
   if (user && user.hasRole("Admin")) {
     return Pings.find({}, {sort: {date: -1}, limit: 20});
   } else {
+    var c=user.getCorporation();
+    if (c) 
     return Pings.find({
       $or: [
         {$and: [
-          {groups: {$in: [user.group(true)]}},
+          {groups: {$in: [c._id]}},
           {roles: {$in: user.getRoles(true)}}
         ]},
         {_u: this.userId}
@@ -251,7 +253,7 @@ Meteor.publish('timers', function(){
 Meteor.publish('init', function(){
   var user=Meteor.users.findOne(this.userId);
   if (user && user.hasRole("Member")) {      
-    return [Meteor.users.find({_id: {$ne: this.userId}}, {fields: {username: 1, main: 1 }}), Apis.find({_u: this.userId}, {fields: {vCode: 0}})];
+    return [Meteor.users.find({_id: {$ne: this.userId}}, {fields: {username: 1, main: 1 }}), Apis.find({_u: this.userId}, {fields: {vCode: 0}}), Groups.find()];
   } else {
     return this.ready();
   }
@@ -268,5 +270,5 @@ Meteor.publish(null, function(){
 
 
 Meteor.publish(null, function (){ 
-  return [Meteor.roles.find({}), Corporations.find({}, {fields: {ticker: 1, type: 1, corporationName: 1, accessMask:1}})];
+  return [Meteor.roles.find({}), Corporations.find({}, {fields: {ticker: 1, type: 1, corporationID: 1, corporationName: 1, allianceName: 1, allianceID: 1, accessMask:1}})];
 });

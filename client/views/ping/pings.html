@@ -103,10 +103,10 @@
               <div class="form-group">
                 <label for="roles">Roles*</label>
                 <select name="roles" index="roles" multiple="true" class="form-control" size="4">
-                  <!--{{#each roles}}
-                  <option value="{{this.name}}">{{this.name}}</option>
-                  {{/each}}-->
-                  <option value="Member">Member</option>  
+                  {{#each groups}}
+                  <option value="{{this.short}}">{{this.name}}</option>
+                  {{/each}}
+                  <!--<option value="Member">Member</option>  
                   {{#if hasRole 'Director'}}
                   <option value="Diplomat">Diplomat</option>
                   <option value="Director">Director</option>
@@ -122,7 +122,7 @@
                   {{/if}}
                   {{#if hasRole 'Admin'}}
                   <option value="Admin">Admin</option>
-                  {{/if}}
+                  {{/if}}-->
                 </select>
               </div>
               <div class="form-group">

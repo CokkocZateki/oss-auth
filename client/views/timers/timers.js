@@ -48,8 +48,12 @@ Template.addTimerModal.events({
     var time = template.$('[name=time]').val();
     var notes = template.$('[name=notes]').val();
     var notify = template.$('[name=notify]').val();  
+    var post = template.$('[name=post]').val();
+    var defensive = template.$('[name=defensive]').val();
+    var formupBefore = template.$('[name=formupBefore]').val();
+    var formupSystem = template.$('[name=formupSystem]').val();
 
-    if (!type  || !system || !planet || !moon || !owner || !time) {
+    if (!type  || !system || !time) {
       Messenger().post({  
         type:"error",  
         message: 'Fields with * are required!'  
@@ -57,14 +61,15 @@ Template.addTimerModal.events({
       return;
     }
 
-    Meteor.call('addTimer', type, system, planet, moon, owner, time, notes, notify, function(error) {
+    Meteor.call('addTimer', type, system, planet, moon, owner, time, notes, notify, post, formupBefore, formupSystem, defensive, function(error, result) {
       if (error) {
         Messenger().post({
           type:"error",       
           message: error.error + " - " + error.reason 
         });  
       }
-      $('#requestSRPModal').modal("hide");
+      else console.log(result)
+      $('#addTimerModal').modal("hide");
     });
   }
 });

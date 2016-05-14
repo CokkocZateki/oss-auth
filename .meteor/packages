@@ -56,3 +56,4 @@ jagi:astronomy
 jagi:astronomy-timestamp-behavior
 servicelocale:geoip
 peerlibrary:async
+meteorhacks:cluster

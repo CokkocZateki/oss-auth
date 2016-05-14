@@ -24,9 +24,10 @@
         {{/if}}
         <li class='{{routeEquals "/external"}}'><a href="/external"><i class="fa fa-wrench"></i> ESA</a></li>
         <li class='{{routeEquals "/api"}}'><a href="/api"><i class="fa fa-exchange"></i> API</a></li>
+        <li class='{{routeEquals "/groups"}}'><a href="/groups"><i class="fa fa-users"></i> GROUPS</a></li>
         {{#if hasRole 'Director'}}
         <li class="divider"></li>
-        <li class='{{routeEquals "/character"}}'><a href="/character"><i class="fa fa-users"></i> Characters</a></li>
+        <!--<li class='{{routeEquals "/character"}}'><a href="/character"><i class="fa fa-users"></i> Characters</a></li>-->
         <li class='hidden {{routeEquals "/intel"}}'><a href="/intel"><i class="fa fa-eye"></i> Intel</a></li>
         <li class='hidden {{routeEquals "/pos"}}'><a href="/pos"><i class="fa fa-eye"></i> POS</a></li>        
         <li class='{{routeEquals "/member"}}'><a href="{{pathFor route='members.list'}}"><i class="fa fa-users"></i> Members</a></li>

@@ -65,7 +65,7 @@ Template.pings.helpers({
     return Session.get(ERRORS_KEY)[key] && 'error';
   },  
   canPing: function() {
-    if (Meteor.user().hasRole(["Ping", "Director"])) {
+    if (Meteor.user().hasRole(["Ping", "FC", "Director"])) {
       return true;
     } else {
       return false;
@@ -76,6 +76,9 @@ Template.pings.helpers({
 Template.pingModal.helpers({
   corporations: function() {
     return Corporations.find({}, {sort: {type:1, corporationName:1}});
+  },
+  groups: function() {
+    return Groups.find({ping: true});
   },
   roles: function() {
     return Roles.getAllRoles();

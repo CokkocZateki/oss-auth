@@ -172,9 +172,13 @@ Meteor.methods({
       throw new Meteor.Error("Error #0815", "Not allowed");
     }
   },
-  addTimer: function(type, system, planet, moon, owner, time, notes, notify) {
+  addTimer: function(type, system, planet, moon, owner, time, notes, notify, post, formupBefore, formupSystem, defensive) {
     if (Meteor.user().hasRole(['FC', 'Diplomat', 'Director'])) {
       var due=moment.utc(time).toDate();
+      var formup=due;
+      if (formupBefore) {
+        formup=moment(due).subtract(formupBefore, "minutes").toDate();
+      }
       var timer=Timers.insert({
         _u: this.userId,
         due: due,
@@ -184,8 +188,40 @@ Meteor.methods({
         moon: moon,
         owner: owner,
         notes: notes,
-        notify: notify
+        notify: notify,
+        post: post,
+        defensive: defensive,
+        formupSystem: formupSystem,
+        formupBefore: formupBefore
       });
+      var attackType="Attack";
+      if (defensive) attackType="Defend";
+      if (post && Meteor.settings.forum && Meteor.settings.forum.url) {
+        var a=Apps.findOne({name: "The OSS Forums"});
+        var t=Meteor.user().hasAuthorized(a);
+        var content="#### Notes: \n"+notes;
+        if (system) content="System: "+system+"\n"+content;
+        if (planet) content="Planet: "+planet+"\n"+content;
+        if (moon) content="Moon: "+moon+"\n"+content;
+        if (owner) content="Owner: "+owner+"\n"+content;
+        if (due) content="Timer: "+moment(due).format("YYYY-MM-DD HH:mm")+" EVE\n"+content;
+        if (due!=formup) content="### Formup: "+moment(formup).format("YYYY-MM-DD HH:mm")+" EVE\n"+content;
+        if (system!=formupSystem) content="### Formup System: "+formupSystem+"\n"+content;
+        
+        if (t && t.token) {
+          HTTP.post(Meteor.settings.forum.url, {
+            headers: {
+              Authorization: "Bearer "+t.token
+            },
+            data: {
+              cid: Meteor.settings.forum.categories.ops,
+              title: moment(formup).format("YYYY-MM-DD HH:mm")+" "+attackType+" "+type+" "+system,
+              content: content+"\n #### Posted automagically from OSS Auth."
+            }
+          });
+          return timer;
+        }
+      }
       return timer;
     } else {
       throw new Meteor.Error("Error #0815", "Not allowed");
@@ -315,7 +351,6 @@ Meteor.methods({
         console.log("api rip", api.keyID, "User has no valid APIS:", user.username);
         if (user.group()) {
           user.resetRoles();
-          Meteor.call("removeESP", user);
           Notifications.insert({
             type: 'error',
             message: 'All your Roles have been striped as you have no valid APIs and characters in the corporation.',

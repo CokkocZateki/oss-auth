@@ -12,7 +12,10 @@
                 <span class="caret"></span>
               </button>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                <li><a class="addRole" href="#" data-role="Director">Director</a></li>
+                {{#each groups}}
+                <li><a class="addRole" href="#" data-role="{{this.short}}">{{this.name}}</a></li>
+                {{/each}}
+                <!--
                 <li><a class="addRole" href="#" data-role="Skyteam">Skyteam</a></li>
                 <li><a class="addRole" href="#" data-role="Diplomat">Diplomat</a></li>
                 <li><a class="addRole" href="#" data-role="FC">FC</a></li>
@@ -26,6 +29,7 @@
                 <li><a class="addRole" href="#" data-role="Titan">Titan</a></li>
                 <li><a class="addRole" href="#" data-role="AT">AT</a></li>
                 <li><a class="addRole" href="#" data-role="AT MOD">AT MOD</a></li>
+                -->
               </ul>
             </div>
           {{/if}}

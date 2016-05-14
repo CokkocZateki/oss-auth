@@ -89,20 +89,26 @@
                 {{/if}}
               </div>
               <div class="form-group">
-                <label for="type" class="col-xs-2 col-sm-offset-0">Type</label>
+                <label for="type" class="col-xs-2 col-sm-offset-0">Type*</label>
                 <div class="col-xs-8 col-sm-offset-0">
                 <select name="type" id="type" class="form-control">
-                  <option value="POS" selected="selected">POS</option>
-                  <option value="IHubShield">IHub Shield</option>
-                  <option value="IHubArmor">IHub Armor</option>
-                  <option value="StationShield">Station Shield</option>
-                  <option value="StationArmor">Station Armor</option>
+                  <option value="OP" selected="selected">OP</option>
+                  <option value="POS">POS</option>
+                  <option value="IHub">IHub</option>
+                  <option value="TCU">TCU</option>
+                  <option value="Station">Station</option>
+                  <option value="Citadel">Citadel</option>
                   <option value="Custom">Custom</option>
                 </select>
                 </div>
               </div>
+              <div class="checkbox">
+                <label>
+                  <input name="defensive" value="1" type="checkbox"> Defensive
+                </label>
+              </div>
               <div class="form-group">
-                <label for="inputSystem" class="col-xs-2 col-sm-offset-0">System</label>
+                <label for="inputSystem" class="col-xs-2 col-sm-offset-0">System*</label>
                 <div class="col-xs-8 col-sm-offset-0">
                   <input id="inputSystem" type="text" name="system" placeholder="FD-MLJ" class="form-control">
                 </div>
@@ -126,7 +132,7 @@
                 </div>
               </div>
               <div class="form-group">
-                <label for="inputTime" class="col-xs-2 col-sm-offset-0">Time</label>
+                <label for="inputTime" class="col-xs-2 col-sm-offset-0">Time*</label>
                 <div class="col-xs-8 col-sm-offset-0">
                   <input id="inputTime" type="text" name="time" placeholder="" class="form-control datetimepicker">
                 </div>
@@ -137,10 +143,29 @@
                   <textarea id="inputNotes" name="notes" cols="40" rows="10" placeholder="Custom Note." class="form-control"></textarea>
                 </div>
               </div>
-              <div class="form-group">
+              
+              <div class="form-group hidden">
                 <label for="inputNotify" class="col-xs-2 col-sm-offset-0">Send a jabber ping to all FCs, X Minutes before timer (0=no ping)</label>
                 <div class="col-xs-8 col-sm-offset-0">
                   <input id="inputNotify" type="text" name="notify" placeholder="60" value="0" class="form-control">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputFormupSystem" class="col-xs-2 col-sm-offset-0">Formup System</label>
+                <div class="col-xs-8 col-sm-offset-0">
+                  <input id="inputFormupSystem" type="text" name="formupSystem" placeholder="FD-MLJ" class="form-control">
+                </div>
+              </div>  
+              <div class="form-group">
+                <label for="inputFormupBefore" class="col-xs-2 col-sm-offset-0">Formup Time (Minutes)</label>
+                <div class="col-xs-8 col-sm-offset-0">
+                  <input id="inputFormupBefore" type="text" name="formupBefore" placeholder="30" value="30" class="form-control">
+                </div>
+              </div>  
+              <div class="form-group">
+                <label for="inputPost" class="col-xs-2 col-sm-offset-0">Post OP</label>
+                <div class="col-xs-8 col-sm-offset-0">
+                  <input id="inputPost" type="checkbox" value="1" name="post" class="form-control">
                 </div>
               </div>
               <div class="form-group">

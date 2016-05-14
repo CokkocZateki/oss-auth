@@ -2,6 +2,9 @@ Template.memberDetail.helpers({
   roles: function() {
     return Roles.getAllRoles();
   },
+  groups: function() {
+    return Groups.find({});
+  },
   characters: function() {
     return Characters.find({_u: this._id});
   },
