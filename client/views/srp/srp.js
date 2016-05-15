@@ -113,6 +113,12 @@ Template.srp.helpers({
   stats: function() {
     return (Session.get('SRPStats')||[]);
   },
+  statsSum: function() {
+    return (Session.get('SRPStats').reduce(function(pv, cv) { return pv+cv.total; }, 0)||[]);
+  },
+  statsCount: function() {
+    return (Session.get('SRPStats').reduce(function(pv, cv) { return pv+cv.count; }, 0)||[]);
+  },
   currentMonth: function() {
     return moment((Session.get("special")||new Date())).format("MMMM");
   },

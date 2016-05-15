@@ -45,6 +45,13 @@
           </tr>
           {{/each}}
         </tbody>
+        <tfoot>
+          <tr>
+            <th>Total</th>
+            <th>{{statsCount}}</th>
+            <th>{{formatISK statsSum}}</th>
+          </tr>
+        </tfoot>
       </table>
     </div>
     {{else}}
