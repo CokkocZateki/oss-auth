@@ -177,7 +177,7 @@ Meteor.methods({
       var due=moment.utc(time).toDate();
       var formup=due;
       if (formupBefore) {
-        formup=moment(due).subtract(formupBefore, "minutes").toDate();
+        formup=moment(due).utc().subtract(formupBefore, "minutes").toDate();
       }
       var timer=Timers.insert({
         _u: this.userId,
@@ -204,9 +204,9 @@ Meteor.methods({
         if (planet) content="Planet: "+planet+"\n"+content;
         if (moon) content="Moon: "+moon+"\n"+content;
         if (owner) content="Owner: "+owner+"\n"+content;
-        if (due) content="Timer: "+moment(due).format("YYYY-MM-DD HH:mm")+" EVE\n"+content;
-        if (due!=formup) content="### Formup: "+moment(formup).format("YYYY-MM-DD HH:mm")+" EVE\n"+content;
-        if (system!=formupSystem) content="### Formup System: "+formupSystem+"\n"+content;
+        if (due) content="Timer: "+moment(due).utc().format("YYYY-MM-DD HH:mm")+" EVE\n"+content;
+        if (due!=formup) content="### Formup: "+moment(formup).utc().format("YYYY-MM-DD HH:mm")+" EVE\n"+content;
+        if (system!=formupSystem && formupSystem) content="### Formup System: "+formupSystem+"\n"+content;
         
         if (t && t.token) {
           HTTP.post(Meteor.settings.forum.url, {
@@ -215,7 +215,7 @@ Meteor.methods({
             },
             data: {
               cid: Meteor.settings.forum.categories.ops,
-              title: moment(formup).format("YYYY-MM-DD HH:mm")+" "+attackType+" "+type+" "+system,
+              title: moment(formup).utc().format("YYYY-MM-DD HH:mm")+" "+attackType+" "+type+" "+system,
               content: content+"\n #### Posted automagically from OSS Auth."
             }
           });

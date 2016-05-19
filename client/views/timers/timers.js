@@ -48,8 +48,8 @@ Template.addTimerModal.events({
     var time = template.$('[name=time]').val();
     var notes = template.$('[name=notes]').val();
     var notify = template.$('[name=notify]').val();  
-    var post = template.$('[name=post]').val();
-    var defensive = template.$('[name=defensive]').val();
+    var post = template.$('[name=post]').is(":checked");
+    var defensive = template.$('[name=defensive]').is(":checked");
     var formupBefore = template.$('[name=formupBefore]').val();
     var formupSystem = template.$('[name=formupSystem]').val();
 

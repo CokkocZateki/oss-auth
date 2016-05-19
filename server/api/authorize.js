@@ -3,7 +3,7 @@ Router.route('/api/authorize', function() {
   var login;
   var authorized=false;
   if (this.request && this.request.headers && this.request.headers.authorization && (login=this.request.headers.authorization.split(":")) && login.length==2) {
-    var user=Meteor.users.findOne({$or: [{username: login[0]}, {usernameNormalized: login[0]}]});
+    var user=Meteor.users.findOne({$or: [{username: login[0]}, {usernameNormalized: login[0]}], active: {$ne: false}});
     if (!user) {
       console.log("FAILED API AUTH ATTEMPT", this.request.headers);
     } else {
@@ -19,7 +19,7 @@ Router.route('/api/authorize', function() {
   if (this.request && this.request.headers && this.request.headers.authorization && this.request.headers['x-app-secret'] && this.request.headers['x-app-id']) {
     var app=Apps.findOne({_id: this.request.headers['x-app-id'], secret: this.request.headers['x-app-secret']});
     if (app) {
-      var user=Meteor.users.findOne({authorizations: {$elemMatch: {token: this.request.headers.authorization}}});
+      var user=Meteor.users.findOne({authorizations: {$elemMatch: {token: this.request.headers.authorization}}, active: {$ne: false}});
       var a;
       if (user) a=user.hasAuthorized(app);
       if (a) {

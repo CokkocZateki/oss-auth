@@ -4,11 +4,10 @@ if (Meteor.user() && !Meteor.user().hasRole("Admin")) {
 };
 
 
-Template.member.handle = Meteor.subscribeWithPagination('membersPaged', Session.get("filter.username"), 40);
 
-Template.member.members = Meteor.users.find(filter, {sort: {username:1}, limit: Template.member.handle.limit()});
 
 Template.member.rendered = function() {
+  Template.member.members = Meteor.users.find(filter, {sort: {username:1}, limit: Template.member.handle.limit()});
   $(window).scroll(function() {
     if($(window).scrollTop() + $(window).height() > $(document).height() - 100 && Template.member.handle.ready()) {
       Template.member.handle.loadNextPage();

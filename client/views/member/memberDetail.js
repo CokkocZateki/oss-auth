@@ -23,6 +23,13 @@ Template.memberDetail.helpers({
 });
 
 Template.memberDetail.events({
+  'click .disableUser': function(event, template) {
+    console.log(template.data);
+    template.data.disable();
+  },
+  'click .enableUser': function(event, template) {
+    template.data.enable();
+  },
   'click .addRole': function(event, template) {
     console.log(event);
     template.data.addRole(event.target.dataset.role);

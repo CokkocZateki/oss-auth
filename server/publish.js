@@ -136,7 +136,7 @@ Meteor.publish("member", function(id) {
     var u=Meteor.users.findOne(filter);
     if (u) {
       return [
-        Meteor.users.find(filter, {fields: {username: 1, 'profile.main': 1, 'profile.status': 1, roles: 1, notes:1}}),
+        Meteor.users.find(filter, {fields: {username: 1, 'profile.main': 1, 'profile.status': 1, roles: 1, notes:1, active: 1}}),
         Absences.find({_u: id}),
         Apis.find({_u: id}), 
         Reimbursements.find({_u: id}, {sort: { killID: -1 }, limit: 10}),
@@ -164,7 +164,7 @@ Meteor.publish("membersPaged", function(username, limit) {
         {
           limit: limit,
           sort: {username: 1},
-          fields: {username: 1, 'profile.main': 1, 'profile.status': 1, roles: 1, notes:1, authorizations: 1}
+          fields: {username: 1, 'profile.main': 1, 'profile.status': 1, roles: 1, notes:1, authorizations: 1, active: 1}
         }
       ) 
     return [
@@ -183,7 +183,7 @@ Meteor.publish("members", function() {
     if (!user.hasRole("Admin")) {
       filter['roles.'+user.group(true)]={"$in": ["Member"]};
     }
-    return [Meteor.users.find(filter, {fields: {username: 1, 'profile.main': 1, 'profile.status': 1, roles: 1, notes:1, authorizations: 1}}),Characters.find()];
+    return [Meteor.users.find(filter, {fields: {username: 1, 'profile.main': 1, 'profile.status': 1, roles: 1, notes:1, authorizations: 1, active: 1}}),Characters.find()];
   } else {
     return this.ready();
   }
@@ -269,7 +269,7 @@ Meteor.publish(null, function() {
 Meteor.publish('timers', function(){
   var user=Meteor.users.findOne(this.userId);
   if (user && user.hasRole("Member")) {      
-    return Timers.find({});
+    return Timers.find({deleted: {$ne: true}}, {sort: {due: -1}, limit: 50});
   } else {
     return this.ready();
   }
