@@ -3,6 +3,13 @@
 This auth was used by up to 1500 users with 400 using services simultaneously.
 
 
+#### Connectors using the 3rd Party API:
+
+- Jabber https://github.com/OSS-EVE/ejabberdauth
+- Forum https://github.com/OSS-EVE/nodebb-plugin-oss-auth
+- TS3 https://github.com/OSS-EVE/oss-ts3manager
+
+
 ### Requirements:
 - Meteor
 ```
@@ -22,14 +29,6 @@ curl https://install.meteor.com/ | sh
     meteor --settings settings.json
 
 Open localhost:3000
-
-
-#### 3rd Party API:
-
-- Jabber https://github.com/OSS-EVE/ejabberdauth
-- Forum https://github.com/OSS-EVE/nodebb-plugin-oss-auth
-- TS3 https://github.com/OSS-EVE/oss-ts3manager
-
 
 
 #### settings.json content:
