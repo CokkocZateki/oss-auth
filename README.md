@@ -2,6 +2,9 @@
 
 This auth was used by up to 1500 users with 400 using services simultaneously.
 
+#### 3rd Party API/SSO:
+
+https://github.com/OSS-EVE/oss-auth/wiki/OSS-Auth-SSO
 
 #### Connectors using the 3rd Party API:
 
