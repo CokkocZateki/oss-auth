@@ -244,10 +244,13 @@ Meteor.methods({
     if (Meteor.user() && Meteor.user().group() && Meteor.user().hasRole("Member") && !corp) {
       throw new Meteor.Error("Error #0815", "Character not in an allowed corporation for OMEGA Member");
     }
+    var exists=Meteor.users.findOne({username: c.characterName});
+    if (exists) throw new Meteor.Error("Error #0815", "There already is a account under that username. PLEASE DONT CREATE MULTIPLE ACCOUNST!! Recover your old account or contact IT support if you can't.");
+    
     Meteor.users.update({_id:Meteor.user()._id}, {$set:{username: c.characterName, usernameNormalized: c.characterName.toLowerCase().replace("'","").replace(/ /g,"_"), "profile.main":c._id}});
     Notifications.insert({
           type: 'success',
-          message: 'Main character set to '+c.characterName+", please reset your ESA password!",
+          message: 'Main character set to '+c.characterName+", please notice that your username on the auth was changed too, you will have to login with your case sensitive charactername next time!",
           _u: Meteor.userId()
     });
   },
@@ -304,11 +307,6 @@ Meteor.methods({
         console.log("api ok", api.keyID);
         fut.return({status: 'OK'});
         Apis.update(api._id, {$set: {status: 'OK', expires: res.expires||false, accessMask: res.accessMask, type: res.type}});
-        Notifications.insert({
-          type: 'info',                
-          message: 'API valid!',                                                                       
-          _u: api._u                                              
-        });
         var chars = res.characters;
         for (var c in chars) {
           //console.log(chars[c]);

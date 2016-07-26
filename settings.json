@@ -1,0 +1,27 @@
+{
+  "isDev": 1,
+  "allianceID": "655846070",
+  "api": {
+    "keyID": "xxxxxx",
+    "vCode": "xxxxxx9ry3dKcAK4VlEEB5zln83Da6ZLASfvtkvpzH8SiPyIg3wRIhaOjEgR2sbu",
+    "characterID": "1859175334"
+  },
+  "email": {
+    "smtp": "smtp://auth%40bos.gs:xxxxxxx@mail.bos.gs:25",
+    "from": "The OSS - AUTH <auth@bos.gs>"
+  },
+  "public": {
+    "publicJabber": 1
+  },
+  "access": {
+    "AUTH_JABBER": 1,
+    "AUTH_VOICE": 2,
+    "AUTH_FORUM": 4
+  },
+  "forum": {
+    "categories": {
+      "ops": 19
+    },
+    "url": "https://forum.oss.rocks/api/v1/topics"
+  }
+}

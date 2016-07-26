@@ -136,7 +136,7 @@ Meteor.publish("member", function(id) {
     var u=Meteor.users.findOne(filter);
     if (u) {
       return [
-        Meteor.users.find(filter, {fields: {username: 1, 'profile.main': 1, 'profile.status': 1, roles: 1, notes:1, active: 1}}),
+        Meteor.users.find(filter, {fields: {username: 1, 'profile.main': 1, 'profile.status': 1, roles: 1, notes:1, active: 1, createdAt: 1, updatedAt: 1, lastIp: 1, emails: 1}}),
         Absences.find({_u: id}),
         Apis.find({_u: id}), 
         Reimbursements.find({_u: id}, {sort: { killID: -1 }, limit: 10}),

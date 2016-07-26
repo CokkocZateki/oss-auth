@@ -1,3 +1,18 @@
+updateApis = function() {
+  Apis.find({status: "OK"}).forEach(function(api) { Meteor.call("updateApi", api.keyID); });
+};
+
+if (!Meteor.settings.isDev) {
+SyncedCron.add({
+  name: "update apis",
+  schedule: function(parser) {
+    return parser.text('every 2 hours');
+  },
+  job: updateApis
+});
+}
+
+
 updateAlliances = function() {
   var fut = new Future();
   ejs.fetch('eve:AllianceList', Meteor.bindEnvironment(function (err, res) {

@@ -8,6 +8,10 @@ Accounts.validateNewUser(function (user) {
 
 Accounts.validateLoginAttempt(function (attempt) {
 //  console.log("validateLoginAttempt", attempt, attempt.user.active);
+  if (attempt.allowed && attempt && attempt.user.active && attempt.connection && attempt.connection.clientAddress) {
+    attempt.user.set("lastIp", attempt.connection.clientAddress);
+    attempt.user.save();
+  }
   return attempt.allowed && attempt.user.active;
 });
 

@@ -29,6 +29,7 @@ Template.member.events({
       delete filter.username;
     }
     Template.member.changed.changed();
+    Template.member.handle.stop();
     Template.member.handle = Meteor.subscribeWithPagination('membersPaged', Session.get("filter.username"), 40);
   },
   'submit .filterMembers': function(e) {
