@@ -2,6 +2,14 @@
 
 This auth was used by up to 1500 users with 400 using services simultaneously.
 
+
+##### Screenshots: 
+- External Services: https://i.imgur.com/3h07aKI.png
+- SRP: https://i.imgur.com/mYkHLoy.png
+- APIS: https://i.imgur.com/w4vARN1.png
+- Members: https://i.imgur.com/l3jXYMZ.png
+- Member Details: https://i.imgur.com/sNx87PU.png
+
 #### 3rd Party API/SSO:
 
 https://github.com/OSS-EVE/oss-auth/wiki/OSS-Auth-SSO
