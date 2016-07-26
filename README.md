@@ -1,5 +1,8 @@
 ## EVE Online - OSS Auth
 
+This auth was used by up to 1500 users with 400 using services simultaneously.
+
+
 ### Requirements:
 - Meteor
 ```
