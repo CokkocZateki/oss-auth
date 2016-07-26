@@ -21,6 +21,12 @@ curl https://install.meteor.com/ | sh
 Open localhost:3000
 
 
+#### 3rd Party API:
+
+https://github.com/OSS-EVE/ejabberdauth
+
+
+
 #### settings.json content:
 
 isDev prevents cronJobs.
