@@ -24,6 +24,7 @@ Open localhost:3000
 #### 3rd Party API:
 
 https://github.com/OSS-EVE/ejabberdauth
+https://github.com/OSS-EVE/nodebb-plugin-oss-auth
 
 
 
